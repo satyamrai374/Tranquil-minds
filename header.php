@@ -428,6 +428,8 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
         }
     </style>
     <script src="script.js" defer></script>
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body>

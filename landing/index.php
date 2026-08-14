@@ -69,6 +69,8 @@ $page_description = "Schedule a free consultation for Neurostar® TMS therapy at
             scrollbar-width: none;  /* Firefox */
         }
     </style>
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body class="bg-cream font-sans text-primary min-h-screen flex flex-col selection:bg-primary/20 selection:text-primary">
@@ -242,10 +244,23 @@ $page_description = "Schedule a free consultation for Neurostar® TMS therapy at
 
                                 <!-- Submit -->
                                 <button type="submit"
-                                    class="w-full py-3.5 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg shadow-primary/15 active:scale-[0.99] transition-all text-base tracking-wide mt-4">
+                                    class="g-recaptcha w-full py-3.5 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg shadow-primary/15 active:scale-[0.99] transition-all text-base tracking-wide mt-4"
+                                    data-sitekey="6LfpS4UtAAAAAJm8uR1NtbrBqhxTnCk-SLi5K3Dc"
+                                    data-callback="onLeadFormSubmit"
+                                    data-action="submit">
                                     Request Free Consultation
                                 </button>
                             </form>
+                            <script>
+                                function onLeadFormSubmit(token) {
+                                    const form = document.getElementById("lead-form");
+                                    if (form.checkValidity()) {
+                                        form.submit();
+                                    } else {
+                                        form.reportValidity();
+                                    }
+                                }
+                            </script>
                         </div>
                     </div>
 

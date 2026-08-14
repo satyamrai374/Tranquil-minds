@@ -117,7 +117,7 @@ $hide_contact     = true; // Careers page has its own application form — hide 
 
                 <!-- Right: form -->
                 <div class="fade-in-section bg-white p-8 md:p-10 rounded-[2rem] shadow-xl shadow-accent/5 border border-primary/5">
-                    <form name="careers" accept-charset="UTF-8" action="https://app.formester.com/forms/eidpLzAyh/submissions" method="POST" enctype="multipart/form-data" class="space-y-6">
+                    <form id="careers-form" name="careers" accept-charset="UTF-8" action="https://app.formester.com/forms/eidpLzAyh/submissions" method="POST" enctype="multipart/form-data" class="space-y-6">
 
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div class="space-y-2">
@@ -183,11 +183,24 @@ $hide_contact     = true; // Careers page has its own application form — hide 
                         </div>
 
                         <button type="submit"
-                            class="w-full px-8 py-4 bg-accent text-white rounded-full font-bold text-base hover:bg-accent-light hover:-translate-y-0.5 hover:shadow-[0_0_30px_rgba(140,120,190,0.5)] transition-all duration-300 flex items-center justify-center gap-2">
+                            class="g-recaptcha w-full px-8 py-4 bg-accent text-white rounded-full font-bold text-base hover:bg-accent-light hover:-translate-y-0.5 hover:shadow-[0_0_30px_rgba(140,120,190,0.5)] transition-all duration-300 flex items-center justify-center gap-2"
+                            data-sitekey="6LfpS4UtAAAAAJm8uR1NtbrBqhxTnCk-SLi5K3Dc"
+                            data-callback="onCareersSubmit"
+                            data-action="submit">
                             Submit Application
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                         </button>
                     </form>
+                    <script>
+                        function onCareersSubmit(token) {
+                            const form = document.getElementById("careers-form");
+                            if (form.checkValidity()) {
+                                form.submit();
+                            } else {
+                                form.reportValidity();
+                            }
+                        }
+                    </script>
                 </div>
             </div>
         </div>

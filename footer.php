@@ -66,7 +66,7 @@
                 <!-- Right Column: Form -->
                 <div
                     class="fade-in-section bg-white p-8 md:p-10 rounded-2xl shadow-xl shadow-accent/5 border border-primary/5">
-                    <form class="space-y-6" accept-charset="UTF-8" action="https://app.formester.com/forms/BEeWY9HCw/submissions" method="POST">
+                    <form id="footer-form" class="space-y-6" accept-charset="UTF-8" action="https://app.formester.com/forms/BEeWY9HCw/submissions" method="POST">
                         <!-- Name Row -->
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div class="space-y-2">
@@ -144,7 +144,10 @@
 
                         <!-- Submit Button -->
                         <button type="submit"
-                            class="w-full py-4 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg shadow-primary/20 transform active:scale-[0.99] transition-all text-lg tracking-wide mt-2">
+                            class="g-recaptcha w-full py-4 bg-primary hover:bg-primary/90 text-white font-bold rounded-xl shadow-lg shadow-primary/20 transform active:scale-[0.99] transition-all text-lg tracking-wide mt-2"
+                            data-sitekey="6LfpS4UtAAAAAJm8uR1NtbrBqhxTnCk-SLi5K3Dc"
+                            data-callback="onFooterSubmit"
+                            data-action="submit">
                            Schedule Your Free 15-Minute Consultation
                         </button>
 
@@ -158,6 +161,16 @@
                                 of Service</a>
                         </div>
                     </form>
+                    <script>
+                        function onFooterSubmit(token) {
+                            const form = document.getElementById("footer-form");
+                            if (form.checkValidity()) {
+                                form.submit();
+                            } else {
+                                form.reportValidity();
+                            }
+                        }
+                    </script>
                 </div>
             </div>
         </div>

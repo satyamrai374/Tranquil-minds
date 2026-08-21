@@ -35,6 +35,8 @@ $hero_cta2_link   = '#articles';
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <?php
                 $posts = [
+                    ['t' => 'What Are Common Side Effects of TMS Therapy?', 'cat' => 'TMS Therapy', 'read' => '8 min read', 'date' => 'Aug 17, 2026', 'excerpt' => 'An in-depth look at the most common and mild side effects of TMS therapy and what you should expect.', 'link' => 'tms-therapy-side-effects.php', 'img' => 'assets/blog/tms-side-effects.png'],
+                    ['t' => 'Is TMS Therapy Covered by Medicare?', 'cat' => 'TMS Therapy', 'read' => '7 min read', 'date' => 'Aug 6, 2026', 'excerpt' => 'A comprehensive guide on Medicare coverage for TMS therapy, eligibility requirements, and the approval process.', 'link' => 'is-tms-therapy-covered-by-medicare.php', 'img' => 'assets/blog/medicare-tms.png'],
                     ['t' => 'How Much Does TMS Cost With Insurance?', 'cat' => 'TMS Therapy', 'read' => '5 min read', 'excerpt' => 'A Complete Guide to NeuroStar TMS Coverage and out-of-pocket costs.', 'link' => 'tms-cost-insurance.php', 'img' => 'assets/blog/tms-cost.png'],
                     ['t' => 'How Does TMS Therapy Work for Depression?', 'cat' => 'TMS Therapy', 'read' => '5 min read', 'excerpt' => 'A Complete Guide to NeuroStar TMS and how it stimulates the brain to improve depression.', 'link' => 'how-tms-works.php', 'img' => 'assets/blog/tms-works.png'],
                 ];
@@ -47,7 +49,7 @@ $hero_cta2_link   = '#articles';
                         </div>
                     </div>
                     <div class="p-6 flex flex-col flex-grow">
-                        <div class="text-gray-400 text-[11px] font-semibold uppercase tracking-widest mb-2"><?php echo $p['read']; ?></div>
+                        <div class="text-gray-400 text-[11px] font-semibold uppercase tracking-widest mb-2"><?php echo isset($p['date']) ? $p['date'] . ' &middot; ' : ''; ?><?php echo $p['read']; ?></div>
                         <h3 class="text-xl font-bold text-primary mb-2 leading-snug group-hover:text-accent transition-colors" style="font-family: 'Bauhaus Soft', cursive;"><?php echo $p['t']; ?></h3>
                         <p class="text-gray-500 text-sm leading-relaxed mb-5 flex-grow"><?php echo $p['excerpt']; ?></p>
                         <span class="inline-flex items-center gap-1.5 text-accent font-bold text-sm group-hover:gap-3 transition-all">

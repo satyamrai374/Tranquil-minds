@@ -12,6 +12,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
     <title><?php echo $page_title; ?></title>
     <meta name="description"
         content="<?php echo $page_description; ?>">
+    <meta name="google-site-verification" content="xmtc9tkO4wtH1nvje2-CJIyEDJ28tIqLl6nFx78qy0w" />
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/logo/Tranquil-logo.png">
     <link rel="shortcut icon" type="image/png" href="assets/logo/Tranquil-logo.png">

@@ -128,4 +128,49 @@ $hero_cta2_link   = 'tel:+16124298280';
         </div>
     </section>
 
+    <!-- ===== OUR SPACE ===== -->
+    <section id="our-space" class="py-16 bg-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-accent/10 rounded-full blur-[130px] -translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
+
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center max-w-2xl mx-auto mb-12 fade-in-section">
+                <div class="flex items-center justify-center gap-3 mb-5">
+                    <span class="h-px w-12 bg-primary/40"></span>
+                    <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Our Space</span>
+                    <span class="h-px w-12 bg-primary/40"></span>
+                </div>
+                <h2 class="text-4xl md:text-5xl text-primary mb-4 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
+                    A Calm Place to Land
+                </h2>
+                <p class="text-gray-600 text-lg leading-relaxed">
+                    A look inside our Monticello office &mdash; private, quiet, and set up so your first visit feels
+                    familiar before you even walk in.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 fade-in-section">
+                <?php
+                $space = [
+                    ['img' => 'assets/new-imags/ambience-2.webp', 'cap' => 'Waiting Area', 'alt' => 'Waiting area at Tranquil Minds Mental Health in Monticello, MN, with comfortable seating'],
+                    ['img' => 'assets/new-imags/ambience-1.webp', 'cap' => 'Consultation Room', 'alt' => 'Private consultation room with natural light, seating, and a work desk'],
+                    ['img' => 'assets/new-imags/ambience-3.webp', 'cap' => 'Treatment Rooms', 'alt' => 'Hallway leading to the private NeuroStar TMS treatment rooms'],
+                ];
+                foreach ($space as $sp): ?>
+                <div class="group relative rounded-[1.5rem] overflow-hidden aspect-[4/3] shadow-sm border border-primary/5 hover:shadow-xl transition-shadow duration-300">
+                    <img src="<?php echo $sp['img']; ?>" alt="<?php echo $sp['alt']; ?>"
+                        class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                        loading="lazy">
+                    <div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/10 to-transparent pointer-events-none">
+                    </div>
+                    <div class="absolute bottom-5 left-5 right-5 z-10">
+                        <span class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 backdrop-blur-md border border-white/25 text-white text-xs font-bold tracking-wide">
+                            <?php echo $sp['cap']; ?>
+                        </span>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
+    </section>
+
 <?php include 'footer.php'; ?>

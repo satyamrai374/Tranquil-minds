@@ -346,7 +346,7 @@ $show_story        = false;
                     <!-- Photo -->
                     <div class="lg:w-2/5 relative overflow-hidden min-h-[400px]">
                         <img
-                            src="assets/home/rox-image.png"
+                            src="assets/new-imags/roxanne.webp"
                             alt="Roxanne DoBrava, Founder & Psychiatric Nurse Practitioner"
                             class="absolute inset-0 w-full h-full object-cover object-top"
                         />
@@ -390,21 +390,34 @@ $show_story        = false;
             <div class="grid sm:grid-cols-2 gap-6 max-w-3xl mx-auto fade-in-section">
                 <?php
                 $team = [
-                    ['name' => 'Tiana DoBrava', 'role' => 'TMS Technician & Office Personnel', 'initials' => 'TD', 'color' => 'from-violet-400 to-purple-600', 'specialties' => ['Neurostar® TMS', 'Office Administration']],
-                    ['name' => 'David DoBrava', 'role' => 'TMS Technician ', 'initials' => 'DD', 'color' => 'from-indigo-400 to-blue-600', 'specialties' => ['Neurostar® TMS']],
+                    ['name' => 'Tiana DoBrava', 'role' => 'TMS Technician & Office Personnel', 'initials' => 'TD', 'photo' => 'assets/new-imags/tianna.webp', 'color' => 'from-violet-400 to-purple-600', 'specialties' => ['Neurostar® TMS', 'Office Administration']],
+                    ['name' => 'David DoBrava', 'role' => 'TMS Technician ', 'initials' => 'DD', 'photo' => 'assets/new-imags/huband.webp', 'color' => 'from-indigo-400 to-blue-600', 'specialties' => ['Neurostar® TMS']],
                 ];
                 foreach ($team as $member): ?>
-                <div class="bg-white rounded-[1.5rem] p-6 shadow-sm border border-primary/5 hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col">
-                    <!-- Avatar -->
-                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br <?php echo $member['color']; ?> flex items-center justify-center text-white font-bold text-xl mb-4 shadow-lg">
+                <div class="bg-white rounded-[1.5rem] overflow-hidden shadow-sm border border-primary/5 hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col group/card">
+                    <!-- Portrait: photo when we have one, initials otherwise -->
+                    <?php if (!empty($member['photo'])): ?>
+                    <div class="relative w-full aspect-[4/5] overflow-hidden bg-primary/5">
+                        <img src="<?php echo $member['photo']; ?>"
+                            alt="<?php echo $member['name']; ?>, <?php echo trim($member['role']); ?> at Tranquil Minds Mental Health"
+                            class="absolute inset-0 w-full h-full object-cover object-top transition-transform duration-700 group-hover/card:scale-105"
+                            loading="lazy">
+                        <div class="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent pointer-events-none">
+                        </div>
+                    </div>
+                    <?php else: ?>
+                    <div class="w-full aspect-[4/5] bg-gradient-to-br <?php echo $member['color']; ?> flex items-center justify-center text-white font-bold text-6xl">
                         <?php echo $member['initials']; ?>
                     </div>
-                    <h4 class="text-lg font-bold text-primary mb-1"><?php echo $member['name']; ?></h4>
-                    <p class="text-accent text-sm font-medium mb-4"><?php echo $member['role']; ?></p>
-                    <div class="flex flex-wrap gap-2 mt-auto">
-                        <?php foreach ($member['specialties'] as $s): ?>
-                        <span class="px-2.5 py-1 bg-primary/5 text-primary text-[11px] font-semibold rounded-full"><?php echo $s; ?></span>
-                        <?php endforeach; ?>
+                    <?php endif; ?>
+                    <div class="p-6 flex flex-col flex-1">
+                        <h4 class="text-xl font-bold text-primary mb-1"><?php echo $member['name']; ?></h4>
+                        <p class="text-accent text-sm font-medium mb-4"><?php echo $member['role']; ?></p>
+                        <div class="flex flex-wrap gap-2 mt-auto">
+                            <?php foreach ($member['specialties'] as $s): ?>
+                            <span class="px-2.5 py-1 bg-primary/5 text-primary text-[11px] font-semibold rounded-full"><?php echo $s; ?></span>
+                            <?php endforeach; ?>
+                        </div>
                     </div>
                 </div>
                 <?php endforeach; ?>

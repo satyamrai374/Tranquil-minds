@@ -11,7 +11,7 @@ $page_schema = '
 ';
 $page_title       = "TMS Therapy in Monticello MN | Top TMS Clinic";
 $page_description = "Tranquil Minds is a leading TMS clinic in Monticello MN offering Neurostar® TMS therapy and TMS treatment for depression in Minnesota.";
-$hero_title       = 'TMS for Depression in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
+$hero_title       = 'TMS Therapy in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
 $hero_subtitle    = 'Neurostar® TMS is a non-drug, non-invasive TMS treatment in Minnesota that gently reactivates the brain circuits behind mood — no medication, no sedation, no downtime.';
 $hero_badge       = 'Our Services · TMS Therapy Monticello MN';
 $hero_cta1_text   = 'Book a Free Consultation';

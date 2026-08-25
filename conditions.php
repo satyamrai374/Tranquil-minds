@@ -1,6 +1,6 @@
 <?php
-$page_title       = "Conditions We Treat | Tranquil Minds Mental Health";
-$page_description = "Explore the mental-health conditions treated at Tranquil Minds Mental Health in Monticello, MN — from depression, anxiety, and ADHD to PTSD, OCD, bipolar disorder, sleep disorders, and chronic pain.";
+$page_title       = "Conditions We Treat Monticello MN | Psychiatrist Near Me";
+$page_description = "Explore the mental-health conditions treated at Tranquil Minds Mental Health in Monticello, MN — see a trusted psychiatrist in Monticello, MN for depression, anxiety, ADHD, PTSD, OCD, and more.";
 $hero_title       = 'Conditions<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">We Treat.</span>';
 $hero_subtitle    = 'Whatever you’re facing, you don’t have to face it alone. Explore the conditions we care for — each with a personalized, evidence-based path to relief.';
 $hero_badge       = 'Conditions We Treat';

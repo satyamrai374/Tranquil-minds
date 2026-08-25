@@ -5,18 +5,18 @@ $cond = [
         'text'  => 'For ADHD, we use Creyos to objectively measure attention, memory, and executive function — so your diagnosis rests on real data, not guesswork.',
         'strip' => 'landing/assets/creyos/Banner%201%20-%20v1.png',
     ],
-    'page_title'       => 'ADHD Testing & Treatment | Tranquil Minds Mental Health',
-    'page_description' => 'ADHD evaluation and treatment in Monticello, MN — including objective ADHD testing and cognitive screening through Creyos. Accurate diagnosis, medication management, and support for children, teens, and adults.',
-    'hero_title'       => 'Focus, Clarity<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">& Follow-Through.</span>',
+    'page_title'       => 'ADHD Testing & Treatment Monticello MN | Psychiatrist Near Me',
+    'page_description' => 'ADHD evaluation and treatment in Monticello, MN. Accurate diagnosis and medication management from a psychiatrist in Monticello, MN.',
+    'hero_title'       => 'ADHD Testing & Treatment in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'ADHD isn’t a lack of willpower — it’s a difference in how the brain manages attention. With objective testing and the right plan, it becomes far more manageable.',
     'hero_badge'       => 'Conditions We Treat · ADHD / ADD',
 
     'overview' => [
         'label'      => 'Understanding ADHD',
-        'heading'    => 'A Different Way<br>of Focusing',
+        'heading'    => 'ADHD Treatment in Monticello, MN',
         'paras'      => [
             'ADHD isn’t a lack of effort or willpower — it’s a difference in how the brain manages attention, impulse, and organization. It affects children, teens, and adults, and often looks different at every age.',
-            'With an accurate diagnosis and the right support, the challenges of ADHD become far more manageable — and its strengths, like creativity and energy, can truly shine.',
+            'With an accurate diagnosis and the right support, the challenges of ADHD become far more manageable — and its strengths, like creativity and energy, can truly shine. Comprehensive care often includes <a href="medication-management.php" class="text-accent hover:underline font-medium">medication management</a> and <a href="psychotherapy.php" class="text-accent hover:underline font-medium">psychotherapy</a>.',
         ],
         'points'     => [
             'A neurodevelopmental difference — not a character flaw',
@@ -46,7 +46,7 @@ $cond = [
         'crisis_note' => '',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She provides thorough ADHD evaluations — including objective Creyos cognitive testing — along with medication management and practical support for children, teens, and adults across Monticello, MN.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she provides thorough ADHD evaluations along with medication management and practical support across Monticello, MN.',
     'provider_quote' => '“An accurate diagnosis changes everything. With objective testing and a plan that respects how your brain works, ADHD becomes something you can truly manage — and even harness.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'ADHD Evaluation', 'Creyos Testing', 'Medication Management'],
 

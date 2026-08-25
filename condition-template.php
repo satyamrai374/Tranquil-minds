@@ -17,6 +17,33 @@ $hero_cta2_text   = 'Explore Treatments';
 $hero_cta2_link   = '#treatments';
 
 $FORM = $cond['form_condition'];
+
+$page_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalCondition",
+  "name": "' . htmlspecialchars($cond['form_condition']) . '",
+  "possibleTreatment": [
+    {
+      "@type": "MedicalTherapy",
+      "name": "Psychotherapy",
+      "url": "https://tranquilmindsmentalhealth.com/psychotherapy.php"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Medication Management",
+      "url": "https://tranquilmindsmentalhealth.com/medication-management.php"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Transcranial Magnetic Stimulation (TMS)",
+      "url": "https://tranquilmindsmentalhealth.com/neurostar-tms.php"
+    }
+  ]
+}
+</script>
+';
 ?>
 <?php include 'header.php'; ?>
 <?php include 'hero-service.php'; ?>
@@ -344,7 +371,7 @@ $FORM = $cond['form_condition'];
                         <span class="h-px w-12 bg-primary/40"></span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        Questions, Answered
+                        Questions Answered about Treatment in Monticello, MN
                     </h2>
                 </div>
 

@@ -1,9 +1,19 @@
 <?php
-$page_title       = "Neurostar® TMS Therapy | Tranquil Minds Mental Health";
-$page_description = "Neurostar® TMS therapy in Monticello, MN — a non-drug, non-invasive, FDA-cleared treatment for depression, anxious depression, and OCD. Treating depression at the source, without medication.";
-$hero_title       = 'Treating Depression<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">at the Source.</span>';
-$hero_subtitle    = 'Neurostar® TMS is a non-drug, non-invasive therapy that gently reactivates the brain circuits behind mood — no medication, no sedation, no downtime.';
-$hero_badge       = 'Our Services · Neurostar® TMS';
+$page_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTherapy",
+  "name": "Neurostar TMS",
+  "url": "https://tranquilmindsmentalhealth.com/neurostar-tms.php"
+}
+</script>
+';
+$page_title       = "TMS Therapy in Monticello MN | Top TMS Clinic";
+$page_description = "Tranquil Minds is a leading TMS clinic in Monticello MN offering Neurostar® TMS therapy and TMS treatment for depression in Minnesota.";
+$hero_title       = 'TMS for Depression in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
+$hero_subtitle    = 'Neurostar® TMS is a non-drug, non-invasive TMS treatment in Minnesota that gently reactivates the brain circuits behind mood — no medication, no sedation, no downtime.';
+$hero_badge       = 'Our Services · TMS Therapy Monticello MN';
 $hero_cta1_text   = 'Book a Free Consultation';
 $hero_cta1_link   = '#contact';
 $hero_cta2_text   = 'How It Works';
@@ -27,10 +37,10 @@ $hero_cta2_link   = '#how';
                         <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">What It Is</span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary mb-6 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        A New Possibility<br>for Depression
+                        Neurostar TMS in Monticello, MN
                     </h2>
                     <p class="text-gray-600 text-lg leading-relaxed mb-4">
-                        Neurostar® Transcranial Magnetic Stimulation (TMS) uses focused magnetic pulses — similar to those used in an MRI — to gently stimulate the underactive nerve cells in the mood-regulating regions of the brain.
+                        Neurostar® Transcranial Magnetic Stimulation (TMS) uses focused magnetic pulses — similar to those used in an MRI — to gently stimulate the underactive nerve cells in the mood-regulating regions of the brain. As a top TMS clinic in Monticello MN, we provide targeted TMS therapy to help you find relief.
                     </p>
                     <p class="text-gray-600 text-lg leading-relaxed mb-8">
                         It’s an outpatient treatment that requires no medication, no anesthesia, and no sedation. You stay fully awake, and you can drive yourself home and return to your day right afterward.
@@ -370,7 +380,7 @@ $hero_cta2_link   = '#how';
                     <h2 class="text-3xl md:text-4xl font-bold text-primary mb-1" style="font-family: 'Bauhaus Soft', cursive;">Roxanne DoBrava</h2>
                     <p class="text-accent font-semibold text-lg mb-6">Founder &amp; Psychiatric Nurse Practitioner · APRN-CNP, PMHNP-BC</p>
                     <p class="text-gray-600 leading-relaxed mb-6">
-                        Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a certified Neurostar® provider, she offers this precision neurostimulation therapy to patients across Monticello, MN who haven’t found relief through traditional treatments.
+                        Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a certified Neurostar® provider at our TMS clinic in Monticello MN, she offers this precision neurostimulation therapy to patients across Minnesota who haven’t found relief through traditional treatments.
                     </p>
                     <p class="text-gray-600 leading-relaxed mb-8 italic">
                         &ldquo;TMS gives me a way to help patients heal at the source — safely, without medication. For so many people, it’s the turning point they’d stopped believing was possible.&rdquo;
@@ -409,7 +419,7 @@ $hero_cta2_link   = '#how';
                         <span class="h-px w-12 bg-primary/40"></span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        Questions, Answered
+                        Questions Answered about TMS Therapy in Monticello, MN
                     </h2>
                 </div>
 

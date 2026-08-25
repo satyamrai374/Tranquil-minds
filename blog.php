@@ -1,6 +1,6 @@
 <?php
-$page_title       = "Blog & Resources | Tranquil Minds Mental Health";
-$page_description = "Insights, guides, and resources from Tranquil Minds Mental Health in Monticello, MN — on depression, anxiety, TMS therapy, cognitive testing, and living well.";
+$page_title       = "Blog & Resources Monticello MN | Psychiatrist Near Me";
+$page_description = "Insights, guides, and resources from a trusted psychiatrist in Monticello, MN — on depression, anxiety, TMS therapy, cognitive testing, and living well.";
 $hero_title       = 'Insights &amp;<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Resources.</span>';
 $hero_subtitle    = 'Clear, compassionate guides to help you understand your mental health and the care that can help. Explore our resources below — with more articles on the way.';
 $hero_badge       = 'The Tranquil Minds Blog';

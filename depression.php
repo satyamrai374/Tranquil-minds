@@ -1,7 +1,28 @@
 <?php
-$page_title = "Depression Treatment | Tranquil Minds Mental Health";
-$page_description = "Compassionate, evidence-based depression treatment in Monticello, MN. From treatment-resistant depression to Neurostar® TMS, medication management, and therapy — Tranquil Minds helps you feel like yourself again.";
-$hero_title = 'Depression Is Treatable.<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">And You Don\'t Have to Face It Alone.</span>';
+$page_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalCondition",
+  "name": "Depression",
+  "possibleTreatment": [
+    {
+      "@type": "MedicalTherapy",
+      "name": "Transcranial Magnetic Stimulation (TMS)",
+      "url": "https://tranquilmindsmentalhealth.com/neurostar-tms.php"
+    },
+    {
+      "@type": "MedicalTherapy",
+      "name": "Psychotherapy",
+      "url": "https://tranquilmindsmentalhealth.com/psychotherapy.php"
+    }
+  ]
+}
+</script>
+';
+$page_title = "Depression Treatment Monticello MN | Treatment Near Me";
+$page_description = "Compassionate, evidence-based depression treatment near me in Monticello, MN. From treatment-resistant depression to Neurostar® TMS, medication management, and therapy.";
+$hero_title = 'Depression Treatment in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
 $hero_subtitle = 'Depression is a real, biological condition — not a weakness. At Tranquil Minds, we treat it at the source with advanced, science-backed care tailored to you.';
 $hero_badge = 'Conditions We Treat · Depression';
 $hero_cta1_text = 'Book a Free Consultation';
@@ -28,13 +49,13 @@ $hero_cta2_link = '#treatments';
                         <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Understanding Depression</span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary mb-6 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        More Than Just<br>Feeling Sad
+                        TMS for depression in Monticello, MN
                     </h2>
                     <p class="text-gray-600 text-lg leading-relaxed mb-4">
                         Depression is one of the most common — and most treatable — mental health conditions. It physically changes how the brain regulates mood, energy, and motivation, which is why simply "trying harder" is never the answer.
                     </p>
                     <p class="text-gray-600 text-lg leading-relaxed mb-8">
-                        If low mood, exhaustion, or a loss of interest in the things you once loved have lingered for weeks, it may be more than a rough patch. The right care can help — and recovery is absolutely possible.
+                        If low mood, exhaustion, or a loss of interest in the things you once loved have lingered for weeks, it may be more than a rough patch. If you are looking for depression treatment near me, or exploring options like <a href="neurostar-tms.php" class="text-accent hover:underline font-medium">TMS for depression in Monticello, MN</a>, the right care can help — and recovery is absolutely possible.
                     </p>
 
                     <!-- Key points -->
@@ -170,7 +191,7 @@ $hero_cta2_link = '#treatments';
                     <h2 class="text-3xl md:text-4xl font-bold text-primary mb-1" style="font-family: 'Bauhaus Soft', cursive;">Roxanne DoBrava</h2>
                     <p class="text-accent font-semibold text-lg mb-6">Founder &amp; Psychiatric Nurse Practitioner · APRN-CNP, PMHNP-BC</p>
                     <p class="text-gray-600 leading-relaxed mb-6">
-                        Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She specializes in treating depression — including treatment-resistant cases — through Neurostar® TMS, precision medication management, and psychotherapy for patients across the Monticello, MN community.
+                        Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She specializes in providing the best depression treatment Monticello MN has to offer — including treatment-resistant cases — through Neurostar® TMS, precision medication management, and psychotherapy for patients across the community.
                     </p>
                     <p class="text-gray-600 leading-relaxed mb-8 italic">
                         &ldquo;No one should have to navigate depression alone. My goal is to understand each patient as a whole person, and to build a treatment plan that actually brings relief — even when nothing else has worked.&rdquo;
@@ -401,7 +422,7 @@ $hero_cta2_link = '#treatments';
                         <span class="h-px w-12 bg-primary/40"></span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        Questions, Answered
+                        Questions Answered about Depression Treatment in Monticello, MN
                     </h2>
                 </div>
 

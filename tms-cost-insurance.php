@@ -1,7 +1,7 @@
 <?php
-$page_title       = "How Much Does TMS Cost With Insurance? | NeuroStar TMS in Monticello, MN";
-$page_description = "Wondering how much TMS therapy costs with insurance? Learn about NeuroStar TMS coverage, Medicare, out-of-pocket costs, and what to expect at Tranquil Minds Mental Health in Monticello, MN.";
-$hero_title       = 'How Much Does TMS Cost<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">With Insurance?</span>';
+$page_title       = "How Much Does TMS Cost With Insurance? | TMS Therapy in Monticello MN";
+$page_description = "Wondering how much TMS therapy in Monticello, MN costs with insurance? Learn about NeuroStar TMS coverage from a trusted psychiatrist in Monticello, MN.";
+$hero_title       = 'TMS Cost & Insurance in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
 $hero_subtitle    = 'A Complete Guide to NeuroStar TMS Coverage and out-of-pocket costs.';
 $hero_badge       = 'July 14, 2024 · TMS Therapy';
 $hero_cta1_text   = 'Book a Free Consultation';

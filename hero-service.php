@@ -3,8 +3,8 @@
  * Preserved Hero Section for Service Pages
  * Features the interactive Three.js neural background animation
  */
-$hero_title = $hero_title ?? 'Rewiring Hope. <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">One Pulse at a Time.</span>';
-$hero_subtitle = $hero_subtitle ?? 'Advanced mental wellness & Neurostar® TMS therapy. Restoring balance through the perfect synthesis of science and compassion.';
+$hero_title = $hero_title ?? 'TMS Therapy & Psychiatry <br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">in Monticello, MN.</span>';
+$hero_subtitle = $hero_subtitle ?? 'Advanced mental wellness & Neurostar® TMS therapy from a trusted mental health clinic in Monticello, MN.';
 $hero_badge = $hero_badge ?? 'Accepting New Patients for 2026';
 $hero_cta1_text = $hero_cta1_text ?? 'Begin Your Journey';
 $hero_cta1_link = $hero_cta1_link ?? '#welcome';

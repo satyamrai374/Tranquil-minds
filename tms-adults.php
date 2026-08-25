@@ -1,7 +1,17 @@
 <?php
-$page_title       = "TMS Therapy for Adults | Tranquil Minds Mental Health";
-$page_description = "Neurostar® TMS therapy for adults in Monticello, MN — a non-drug, FDA-cleared treatment for depression, anxious depression, and OCD. Proven relief at the source, without medication side effects.";
-$hero_title       = 'TMS Therapy<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">for Adults.</span>';
+$page_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTherapy",
+  "name": "TMS for Adults",
+  "url": "https://tranquilmindsmentalhealth.com/tms-adults.php"
+}
+</script>
+';
+$page_title       = "TMS Therapy for Adults Monticello MN | Psychiatrist Near Me";
+$page_description = "Neurostar® TMS therapy for adults in Monticello, MN — a non-drug, FDA-cleared treatment for depression from a trusted psychiatrist in Monticello, MN.";
+$hero_title       = 'TMS Therapy for Adults in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
 $hero_subtitle    = 'For adults living with depression, anxious depression, or OCD, Neurostar® TMS offers a proven, non-drug path to relief — no medication, no sedation, no downtime.';
 $hero_badge       = 'TMS Therapy · Adults';
 $hero_cta1_text   = 'Book a Free Consultation';
@@ -25,7 +35,7 @@ $hero_cta2_link   = '#how';
                         <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">TMS for Adults</span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary mb-6 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        A Proven Option<br>When Medication Isn't Enough
+                        TMS for Adults in Monticello, MN
                     </h2>
                     <p class="text-gray-600 text-lg leading-relaxed mb-4">
                         Neurostar® TMS uses gentle magnetic pulses to reactivate the underactive brain circuits behind depression and related conditions. For many adults — especially those who haven't found relief from antidepressants — it's a genuine turning point.
@@ -238,7 +248,7 @@ $hero_cta2_link   = '#how';
                         <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Common Questions</span>
                         <span class="h-px w-12 bg-primary/40"></span>
                     </div>
-                    <h2 class="text-4xl md:text-5xl text-primary leading-tight" style="font-family: 'Bauhaus Soft', cursive;">Questions, Answered</h2>
+                    <h2 class="text-4xl md:text-5xl text-primary leading-tight" style="font-family: 'Bauhaus Soft', cursive;">Questions Answered about TMS in Monticello, MN</h2>
                 </div>
                 <div class="space-y-4 fade-in-section">
                     <?php

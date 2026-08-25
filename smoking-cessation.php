@@ -1,15 +1,15 @@
 <?php
 $cond = [
     'form_condition'   => 'Smoking Cessation',
-    'page_title'       => 'Smoking Cessation | Tranquil Minds Mental Health',
-    'page_description' => 'Doctor-supported smoking cessation in Monticello, MN. Combine proven quit medications with behavioral and mood support to finally quit smoking for good.',
-    'hero_title'       => 'Ready to Quit?<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">We’ll Help You Get There.</span>',
+    'page_title'       => 'Smoking Cessation Monticello MN | Psychiatrist Near Me',
+    'page_description' => 'Doctor-supported smoking cessation in Monticello, MN. See a psychiatrist in Monticello, MN to combine proven quit medications with behavioral support.',
+    'hero_title'       => 'Smoking Cessation in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'Quitting smoking is one of the best things you can do for your health — and you don’t have to rely on willpower alone. We combine proven medication with real support.',
     'hero_badge'       => 'Our Services · Smoking Cessation',
 
     'overview' => [
         'label'      => 'Understanding Nicotine Dependence',
-        'heading'    => 'Quitting Is Hard —<br>Because It’s Biological',
+        'heading'    => 'Smoking Cessation in Monticello, MN',
         'paras'      => [
             'Nicotine is powerfully addictive, changing how the brain’s reward system works. That’s why quitting on willpower alone is so difficult — and why relapse is so common. It is not a lack of discipline.',
             'The good news: with the right combination of medication and support, your odds of quitting for good rise dramatically. We’re here to make it far more achievable.',
@@ -42,7 +42,7 @@ $cond = [
         'crisis_note' => '',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She helps patients across Monticello, MN quit smoking for good by combining proven cessation medications with behavioral and mood support — addressing both the habit and the biology behind it.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she helps patients across Monticello, MN quit smoking for good by combining proven cessation medications with behavioral and mood support — addressing both the habit and the biology behind it.',
     'provider_quote' => '“Quitting smoking is hard, but you don’t have to rely on willpower alone. With the right medication and support, I’ve seen people finally break free — and you can too.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'Smoking Cessation', 'Medication Management', 'Behavioral Support'],
 

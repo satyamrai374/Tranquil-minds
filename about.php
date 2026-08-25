@@ -1,7 +1,7 @@
 <?php
-$page_title = "About Us | Tranquil Minds Mental Health";
-$page_description = "Learn about Tranquil Minds Mental Health — our mission, our compassionate team, and our commitment to advanced, science-backed mental wellness care in Monticello, MN.";
-$hero_title = 'Healing Minds,<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Restoring Lives.</span>';
+$page_title = "Mental Health Provider Monticello MN | Psychiatrist Near Me";
+$page_description = "Learn about Tranquil Minds Mental Health — a trusted mental health provider in Monticello, MN. Our compassionate team offers advanced, science-backed psychiatry Monticello MN.";
+$hero_title = 'Expert Psychiatrists in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN</span>';
 $hero_subtitle = 'At Tranquil Minds, we unite cutting-edge neuroscience with genuine compassion — so every patient walks away not just treated, but truly transformed.';
 $hero_badge = 'Our Story & Team';
 $hero_cta1_text = 'Meet Our Providers';
@@ -369,7 +369,7 @@ $show_story        = false;
                         <h3 class="text-3xl md:text-4xl font-bold text-primary mb-1" style="font-family: 'Bauhaus Soft', cursive;">Roxanne DoBrava</h3>
                         <p class="text-accent font-semibold text-lg mb-6">Founder & Psychiatric Nurse Practitioner · APRN-CNP, PMHNP-BC</p>
                         <p class="text-gray-600 leading-relaxed mb-6">
-                            Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. Her clinical practice centers on medication management, TMS therapy, and psychotherapy for patients across the Monticello, MN community.
+                            Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a leading mental health provider Monticello MN, her clinical psychiatry Monticello MN practice centers on medication management, TMS therapy, and psychotherapy for patients across the community.
                         </p>
                         <p class="text-gray-600 leading-relaxed mb-8 italic">
                             &ldquo;I founded Tranquil Minds Mental Health with a simple belief: that every patient deserves to feel truly heard. Combining clinical expertise with deep compassion, we&rsquo;ve created a space where healing is not just a medical procedure, but a human experience.&rdquo;

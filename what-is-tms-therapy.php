@@ -1,7 +1,7 @@
 <?php
-$page_title       = "What Is TMS Therapy? | Tranquil Minds Mental Health";
-$page_description = "A complete guide to TMS therapy — what it is, how it works, TMS vs. medication, safety and side effects, the clinical evidence, and the treatment schedule. Non-drug, FDA-cleared care in Monticello, MN.";
-$hero_title       = 'What Is<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">TMS Therapy?</span>';
+$page_title       = "What Is TMS Therapy? | TMS Clinic Monticello MN";
+$page_description = "A complete guide to TMS therapy — what it is, how it works, TMS vs. medication, safety and side effects. Learn more about our TMS clinic in Monticello MN.";
+$hero_title       = 'What Is TMS Therapy in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN?</span>';
 $hero_subtitle    = 'A clear, complete guide to Transcranial Magnetic Stimulation — the non-drug, FDA-cleared therapy that treats depression at its source in the brain.';
 $hero_badge       = 'The Complete Guide';
 $hero_cta1_text   = 'Book a Free Consultation';

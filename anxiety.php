@@ -5,18 +5,18 @@ $cond = [
         'text'  => 'Anxiety can scatter focus and memory. Creyos objectively measures your cognition, adding real clarity to your evaluation and care.',
         'strip' => 'landing/assets/creyos/Banner%202%20-%20v1.png',
     ],
-    'page_title'       => 'Anxiety Treatment | Tranquil Minds Mental Health',
-    'page_description' => 'Compassionate, evidence-based anxiety treatment in Monticello, MN. Therapy, medication management, and mind-body care for generalized anxiety, panic, and social anxiety — so you can feel calm and in control again.',
-    'hero_title'       => 'You Can Feel Calm Again.<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">One Steady Breath at a Time.</span>',
+    'page_title'       => 'Anxiety Treatment Monticello MN | Psychiatrist Near Me',
+    'page_description' => 'Compassionate, evidence-based anxiety treatment in Monticello, MN. Therapy and medication management from a psychiatrist in Monticello, MN.',
+    'hero_title'       => 'Anxiety Treatment in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'Anxiety is your body’s alarm system working overtime — and it is highly treatable. At Tranquil Minds, we help you quiet the worry with care built around you.',
     'hero_badge'       => 'Conditions We Treat · Anxiety',
 
     'overview' => [
         'label'      => 'Understanding Anxiety',
-        'heading'    => 'When Worry<br>Won’t Switch Off',
+        'heading'    => 'Anxiety Treatment in Monticello, MN',
         'paras'      => [
             'Anxiety is your body’s natural alarm system working overtime. In the moment it can feel like racing thoughts, a pounding heart, or a constant sense of dread that’s hard to explain — and even harder to control.',
-            'Occasional worry is part of life. But when anxiety becomes persistent, overwhelming, or starts shrinking your world, it’s a treatable medical condition — and real relief is within reach.',
+            'Occasional worry is part of life. But when anxiety becomes persistent, overwhelming, or starts shrinking your world, it’s a treatable medical condition — and real relief is within reach. Treatments often include a combination of <a href="psychotherapy.php" class="text-accent hover:underline font-medium">psychotherapy</a> and <a href="medication-management.php" class="text-accent hover:underline font-medium">medication management</a>.',
         ],
         'points'     => [
             'A highly treatable condition — not something to just “push through”',
@@ -46,7 +46,7 @@ $cond = [
         'crisis_note' => '<span class="font-bold text-primary">Feeling overwhelmed or in crisis?</span> You deserve immediate support. Call or text <a href="tel:988" class="text-accent font-bold underline">988</a> (the Suicide &amp; Crisis Lifeline) any time, day or night. If you are in danger, call 911.',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She helps patients across Monticello, MN quiet persistent anxiety through evidence-based therapy, thoughtful medication management, and mind-body care.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she helps patients across Monticello, MN quiet persistent anxiety through evidence-based therapy and thoughtful medication management.',
     'provider_quote' => '“Anxiety can make the world feel small and exhausting. My goal is to help you feel safe in your own body again — with a plan that fits your life, not the other way around.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'Anxiety Care', 'Medication Management', 'Psychotherapy'],
 

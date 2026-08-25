@@ -5,15 +5,15 @@ $cond = [
         'text'  => 'For teens, Creyos objectively measures attention and thinking skills — bringing clarity to evaluations, including for ADHD.',
         'strip' => 'landing/assets/creyos/Banner%204%20-%20v1.png',
     ],
-    'page_title'       => 'Adolescent Mental Health | Tranquil Minds Mental Health',
-    'page_description' => 'Compassionate adolescent and teen mental-health care in Monticello, MN. Therapy, careful medication management, ADHD evaluation, and family support for young people who are struggling.',
-    'hero_title'       => 'Supporting Teens<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Through It All.</span>',
+    'page_title'       => 'Teen & Adolescent Mental Health Monticello MN | Psychiatrist Near Me',
+    'page_description' => 'Compassionate adolescent and teen mental-health care in Monticello, MN. Therapy and careful medication management from a psychiatrist in Monticello, MN.',
+    'hero_title'       => 'Teen Mental Health in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'Adolescence is hard — and sometimes teens need more than encouragement. We provide compassionate, specialized mental-health care for young people and their families.',
     'hero_badge'       => 'Conditions We Treat · Adolescent Mental Health',
 
     'overview' => [
         'label'      => 'Understanding Teen Mental Health',
-        'heading'    => 'The Teenage Years<br>Are Tough',
+        'heading'    => 'Teen Mental Health Treatment in Monticello, MN',
         'paras'      => [
             'Adolescence brings enormous change — socially, emotionally, and biologically. For many teens, that comes with anxiety, low mood, or struggles that go beyond typical ups and downs.',
             'Early, compassionate support makes a real difference. We create a safe, respectful space where teens feel heard — and where families get the guidance they need to help.',
@@ -46,7 +46,7 @@ $cond = [
         'crisis_note' => '<span class="font-bold text-primary">Worried about your teen’s safety?</span> If they are in crisis or having thoughts of self-harm, call or text <a href="tel:988" class="text-accent font-bold underline">988</a> any time, day or night. If they are in danger, call 911.',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She provides compassionate, age-appropriate mental-health care for adolescents — including therapy, careful medication management, and evaluation — supporting teens and their families across Monticello, MN.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she provides compassionate, age-appropriate mental-health care for adolescents — including therapy and careful medication management.',
     'provider_quote' => '“Teens deserve to be truly heard. My goal is to create a safe, respectful space where young people feel understood — and where families feel supported in helping them.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'Adolescent Care', 'Medication Management', 'Family Support'],
 

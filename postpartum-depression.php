@@ -5,15 +5,15 @@ $cond = [
         'text'  => 'Creyos offers a gentle, objective way to measure how you’re really doing cognitively — supporting complete, compassionate postpartum care.',
         'strip' => 'landing/assets/creyos/Banner%202%20-%20v1.png',
     ],
-    'page_title'       => 'Postpartum Depression Treatment | Tranquil Minds Mental Health',
-    'page_description' => 'Compassionate postpartum depression treatment in Monticello, MN. Sensitive, judgment-free care — therapy and thoughtful medication management — for new and expecting parents.',
-    'hero_title'       => 'Postpartum<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Depression.</span>',
+    'page_title'       => 'Postpartum Depression Treatment Monticello MN | Psychiatrist Near Me',
+    'page_description' => 'Compassionate postpartum depression treatment in Monticello, MN. A psychiatrist in Monticello, MN offering sensitive, judgment-free care for new parents.',
+    'hero_title'       => 'Postpartum Depression Treatment in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'The arrival of a baby can bring unexpected darkness. Postpartum depression is common, real, and very treatable — and you deserve support.',
     'hero_badge'       => 'Conditions We Treat · Postpartum Depression',
 
     'overview' => [
         'label'      => 'Understanding Postpartum Depression',
-        'heading'    => 'You’re a Good Parent —<br>and You Need Support',
+        'heading'    => 'Postpartum Depression Treatment in Monticello, MN',
         'paras'      => [
             'Postpartum depression (PPD) is far more than the “baby blues.” It’s a real medical condition that can bring persistent sadness, exhaustion, anxiety, and a painful sense of disconnection — during pregnancy or in the months after birth.',
             'PPD is never your fault, and it doesn’t mean you love your baby any less. With compassionate, specialized care, it is highly treatable — and you can feel like yourself again.',
@@ -46,7 +46,7 @@ $cond = [
         'crisis_note' => '<span class="font-bold text-primary">Having thoughts of harming yourself or your baby?</span> Please reach out for immediate support — call or text <a href="tel:988" class="text-accent font-bold underline">988</a> any time, or call 911. You are not alone, and help is available right now.',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She offers compassionate, judgment-free care for postpartum and perinatal depression — combining sensitive medication management with therapy — for parents across Monticello, MN.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she offers compassionate postpartum depression treatment in Monticello, MN, combining sensitive medication management with therapy.',
     'provider_quote' => '“New parenthood can be overwhelming, and postpartum depression is nothing to be ashamed of. My goal is to help you feel supported, understood, and like yourself again.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'Perinatal Mental Health', 'Medication Management', 'Psychotherapy'],
 

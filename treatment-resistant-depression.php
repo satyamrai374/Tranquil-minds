@@ -5,15 +5,15 @@ $cond = [
         'text'  => 'When treatment is hard to get right, Creyos lets us objectively monitor your cognition over time — helping us see what’s truly working.',
         'strip' => 'landing/assets/creyos/Banner%203%20-%20v1.png',
     ],
-    'page_title'       => 'Treatment-Resistant Depression (TRD) | Tranquil Minds Mental Health',
-    'page_description' => 'Advanced treatment for treatment-resistant depression (TRD) in Monticello, MN. When antidepressants haven’t worked, Neurostar® TMS and precision medication management offer new hope.',
-    'hero_title'       => 'Treatment-Resistant<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Depression.</span>',
+    'page_title'       => 'Treatment Resistant Depression Treatment | TMS Therapy',
+    'page_description' => 'Advanced treatment resistant depression treatment in Monticello, MN. When antidepressants haven’t worked, TMS for treatment resistant depression offers new hope.',
+    'hero_title'       => 'Treatment-Resistant Depression in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'If antidepressants haven’t brought relief, you still have options. TRD is one of our core focuses — with advanced therapies designed for exactly this.',
     'hero_badge'       => 'Conditions We Treat · Treatment-Resistant Depression',
 
     'overview' => [
         'label'      => 'Understanding TRD',
-        'heading'    => 'You Are Not<br>Out of Options',
+        'heading'    => 'Treatment-Resistant Depression in Monticello, MN',
         'paras'      => [
             'Treatment-resistant depression (TRD) is depression that hasn’t improved after one or more adequate trials of antidepressant medication. If that’s been your experience, it can feel discouraging — but it does not mean you can’t get better.',
             'It often simply means the standard approach wasn’t the right fit for your brain. Advanced therapy like Neurostar® TMS works differently — and it helps many people who had lost hope.',
@@ -68,7 +68,7 @@ $cond = [
         'heading' => 'Advanced Treatments<br>for TRD',
         'sub'     => 'When first-line options fall short, these therapies open new doors.',
         'items'   => [
-            ['t' => 'Neurostar® TMS', 'd' => 'A non-invasive, drug-free therapy that is FDA-cleared and especially effective for treatment-resistant depression, reactivating the brain circuits involved in mood.', 'tag' => 'Drug-Free · FDA-Cleared', 'icon' => 'M13 10V3L4 14h7v7l9-11h-7z', 'link' => '#contact'],
+            ['t' => 'Neurostar® TMS', 'd' => 'A non-invasive, drug-free therapy that is FDA-cleared and especially effective. <a href="neurostar-tms.php" class="underline text-accent">TMS for treatment resistant depression</a> works by reactivating the brain circuits involved in mood.', 'tag' => 'Drug-Free · FDA-Cleared', 'icon' => 'M13 10V3L4 14h7v7l9-11h-7z', 'link' => '#contact'],
             ['t' => 'Comprehensive Re-Evaluation', 'd' => 'A fresh, thorough look at your diagnosis and history to uncover what previous treatment may have missed — and to chart a better path forward.', 'tag' => 'Fresh Perspective', 'icon' => 'M15 12a3 3 0 11-6 0 3 3 0 016 0z M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z', 'link' => '#contact'],
             ['t' => 'Medication Optimization', 'd' => 'A careful second look at your regimen — adjusting, combining, or augmenting — to find what finally works.', 'tag' => 'Personalized Psychiatry', 'icon' => 'M19 7a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h14zm-9 4h4', 'link' => '#contact'],
             ['t' => 'Therapy &amp; Whole-Person Support', 'd' => 'Evidence-based therapy and support that address the factors medication alone can miss.', 'tag' => 'Whole-Person Care', 'icon' => 'M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z', 'link' => '#contact'],

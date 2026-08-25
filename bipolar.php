@@ -5,18 +5,18 @@ $cond = [
         'text'  => 'Creyos lets us objectively track cognition across mood states — supporting an accurate diagnosis and steady, informed care.',
         'strip' => 'landing/assets/creyos/Banner%203%20-%20v1.png',
     ],
-    'page_title'       => 'Bipolar Disorder Treatment | Tranquil Minds Mental Health',
-    'page_description' => 'Careful, consistent bipolar disorder treatment in Monticello, MN. Expert medication management, psychotherapy, and ongoing monitoring to smooth the highs and lows and build lasting stability.',
-    'hero_title'       => 'Finding Balance<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">& Lasting Stability.</span>',
+    'page_title'       => 'Bipolar Disorder Treatment Monticello MN | Psychiatrist Near Me',
+    'page_description' => 'Careful, consistent bipolar disorder treatment in Monticello, MN. Expert medication management and psychotherapy from a psychiatrist in Monticello, MN.',
+    'hero_title'       => 'Bipolar Disorder Treatment in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'Bipolar disorder is a biological condition — and with careful, consistent care, real stability is absolutely achievable. We help you find steady ground.',
     'hero_badge'       => 'Conditions We Treat · Bipolar Disorder',
 
     'overview' => [
         'label'      => 'Understanding Bipolar Disorder',
-        'heading'    => 'More Than<br>a Mood Swing',
+        'heading'    => 'Bipolar Disorder Treatment in Monticello, MN',
         'paras'      => [
             'Bipolar disorder involves significant shifts in mood, energy, and activity — from emotional highs (mania or hypomania) to deep lows. These shifts are biological, and they’re far more than ordinary mood changes.',
-            'With careful, consistent psychiatric care, stability is absolutely achievable. The right plan can smooth the extremes and help you build a steady, fulfilling life.',
+            'With careful, consistent psychiatric care, stability is absolutely achievable. The right plan can smooth the extremes and help you build a steady, fulfilling life through <a href="medication-management.php" class="text-accent hover:underline font-medium">medication management</a> and ongoing <a href="psychotherapy.php" class="text-accent hover:underline font-medium">psychotherapy</a> support.',
         ],
         'points'     => [
             'A medical condition rooted in brain chemistry',
@@ -46,7 +46,7 @@ $cond = [
         'crisis_note' => '<span class="font-bold text-primary">In crisis or thinking about self-harm?</span> You deserve immediate support. Call or text <a href="tel:988" class="text-accent font-bold underline">988</a> (the Suicide &amp; Crisis Lifeline) any time, day or night. If you are in danger, call 911.',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She provides careful, consistent care for bipolar disorder — combining expert medication management with therapy and ongoing monitoring — for patients across Monticello, MN.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she provides careful, consistent care for bipolar disorder — combining expert medication management with therapy.',
     'provider_quote' => '“Stability isn’t a matter of luck — it’s the result of thoughtful, consistent care. My goal is to help you find steady ground and build the life you want on top of it.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'Mood Disorders', 'Medication Management', 'Psychotherapy'],
 

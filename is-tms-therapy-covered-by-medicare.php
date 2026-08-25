@@ -1,7 +1,7 @@
 <?php
-$page_title       = "Is TMS Therapy Covered by Medicare? | Tranquil Minds Mental Health";
-$page_description = "Discover if TMS therapy is covered by Medicare, eligibility requirements, the approval process, and what you can expect in terms of out-of-pocket costs for depression treatment.";
-$hero_title       = 'Is TMS Therapy Covered<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">by Medicare?</span>';
+$page_title       = "Is TMS Therapy Covered by Medicare? | TMS Therapy in Monticello MN";
+$page_description = "Discover if TMS therapy in Monticello, MN is covered by Medicare and what you can expect in terms of out-of-pocket costs with a psychiatrist in Monticello, MN.";
+$hero_title       = 'Medicare Coverage for TMS in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
 $hero_subtitle    = 'A comprehensive guide on Medicare coverage for TMS therapy, eligibility requirements, and the approval process.';
 $hero_badge       = 'August 6, 2026 · TMS Therapy';
 $hero_cta1_text   = 'Book a Free Consultation';

@@ -431,6 +431,38 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
     <script src="script.js" defer></script>
     <!-- Google reCAPTCHA -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!-- Global JSON-LD Schema for Medical Clinic -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["MedicalClinic", "LocalBusiness"],
+      "name": "Tranquil Minds Mental Health",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "154 East Broadway Street, Suite 2",
+        "addressLocality": "Monticello",
+        "addressRegion": "MN",
+        "postalCode": "55362",
+        "addressCountry": "US"
+      },
+      "telephone": "+16124298280",
+      "email": "roxannedpmhnp@gmail.com",
+      "url": "https://tranquilmindsmentalhealth.com",
+      "logo": "https://tranquilmindsmentalhealth.com/assets/logo/Tranquil-logo.png",
+      "description": "A trusted mental health provider in Monticello, MN offering advanced, science-backed psychiatry.",
+      "medicalSpecialty": ["Psychiatric", "MentalHealth"],
+      "founder": {
+        "@type": "Person",
+        "name": "Roxanne DoBrava",
+        "jobTitle": "Psychiatric Mental Health Nurse Practitioner",
+        "honorificSuffix": "PMHNP-BC"
+      }
+    }
+    </script>
+    
+    <!-- Page-Specific JSON-LD Schema (if defined) -->
+    <?php if (isset($page_schema)) { echo $page_schema; } ?>
 </head>
 
 <body>

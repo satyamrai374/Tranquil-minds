@@ -5,18 +5,18 @@ $cond = [
         'text'  => 'Trauma can affect focus and memory. Creyos provides an objective measure of your cognition to help inform trauma-focused care.',
         'strip' => 'landing/assets/creyos/Banner%201%20-%20v1.png',
     ],
-    'page_title'       => 'PTSD & Trauma Treatment | Tranquil Minds Mental Health',
-    'page_description' => 'Compassionate, trauma-informed PTSD treatment in Monticello, MN. Evidence-based psychotherapy and medication management to help you process trauma safely and reclaim a sense of safety.',
-    'hero_title'       => 'Healing After Trauma.<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">At Your Own Pace.</span>',
+    'page_title'       => 'PTSD Treatment Monticello MN | Psychiatrist Near Me',
+    'page_description' => 'Compassionate, trauma-informed PTSD treatment in Monticello, MN. See a psychiatrist in Monticello, MN for evidence-based psychotherapy and medication management.',
+    'hero_title'       => 'PTSD & Trauma Treatment in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'PTSD is a natural response to overwhelming experiences — never a weakness. With compassionate, evidence-based care, a sense of safety can return.',
     'hero_badge'       => 'Conditions We Treat · PTSD',
 
     'overview' => [
         'label'      => 'Understanding PTSD',
-        'heading'    => 'Reclaiming<br>a Sense of Safety',
+        'heading'    => 'TMS for PTSD in Monticello, MN',
         'paras'      => [
             'Trauma changes the brain’s alarm system, keeping it stuck in survival mode long after the danger has passed. PTSD can follow any overwhelming experience — and it is never a sign of weakness.',
-            'You don’t have to stay trapped in the past. With compassionate, evidence-based care, the grip of trauma can loosen, and a sense of safety can return.',
+            'You don’t have to stay trapped in the past. With compassionate, evidence-based care, including <a href="neurostar-tms.php" class="text-accent hover:underline font-medium">TMS for PTSD in Monticello, MN</a>, the grip of trauma can loosen, and a sense of safety can return.',
         ],
         'points'     => [
             'A natural response to overwhelming experiences — not a flaw',
@@ -46,7 +46,7 @@ $cond = [
         'crisis_note' => '<span class="font-bold text-primary">In crisis or thinking about self-harm?</span> You deserve immediate support. Call or text <a href="tel:988" class="text-accent font-bold underline">988</a> (the Suicide &amp; Crisis Lifeline) any time, day or night. If you are in danger, call 911.',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She provides compassionate, trauma-informed care — combining evidence-based psychotherapy with thoughtful medication management — for patients across Monticello, MN.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she provides compassionate, trauma-informed PTSD treatment — combining evidence-based psychotherapy with thoughtful medication management — for patients across Monticello, MN.',
     'provider_quote' => '“Healing from trauma happens in safety, and at your pace. My role is to walk beside you — never to rush you — as you find your way back to feeling secure.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'Trauma-Informed Care', 'Medication Management', 'Psychotherapy'],
 

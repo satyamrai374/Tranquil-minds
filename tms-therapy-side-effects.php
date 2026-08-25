@@ -1,7 +1,7 @@
 <?php
 $page_title       = "What Are Common Side Effects of TMS Therapy? | Tranquil Minds Mental Health";
 $page_description = "Learn about the common, mild side effects of TMS therapy, how long they last, and what you can do to ensure a comfortable treatment experience.";
-$hero_title       = 'What Are Common Side Effects<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">of TMS Therapy?</span>';
+$hero_title       = 'TMS Therapy Side Effects in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
 $hero_subtitle    = 'An in-depth look at the most common and mild side effects of TMS therapy and what you should expect.';
 $hero_badge       = 'August 17, 2026 · TMS Therapy';
 $hero_cta1_text   = 'Book a Free Consultation';

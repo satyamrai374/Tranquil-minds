@@ -1,7 +1,7 @@
 <?php
-$page_title       = "How Does TMS Therapy Work for Depression? | NeuroStar TMS in Monticello, MN";
-$page_description = "Learn how TMS therapy works for depression, who it's for, what to expect during treatment, and why NeuroStar TMS is an effective medication-free option at Tranquil Minds Mental Health in Monticello, MN.";
-$hero_title       = 'How Does TMS Therapy Work<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">for Depression?</span>';
+$page_title       = "How Does TMS Therapy Work? | TMS Therapy in Monticello MN";
+$page_description = "Learn how TMS therapy in Monticello, MN works for depression. See why NeuroStar TMS is an effective medication-free option from a psychiatrist in Monticello, MN.";
+$hero_title       = 'How Does TMS Therapy Work<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">in Monticello, MN?</span>';
 $hero_subtitle    = 'A Complete Guide to NeuroStar TMS and how it stimulates the brain to improve depression.';
 $hero_badge       = 'July 26, 2024 · TMS Therapy';
 $hero_cta1_text   = 'Book a Free Consultation';

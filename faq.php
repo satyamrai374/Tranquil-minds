@@ -1,6 +1,6 @@
 <?php
-$page_title       = "Frequently Asked Questions | Tranquil Minds Mental Health";
-$page_description = "Answers to common questions about Tranquil Minds Mental Health in Monticello, MN — getting started, insurance, Neurostar® TMS, medication management, psychotherapy, ADHD testing, and more.";
+$page_title       = "Frequently Asked Questions Monticello MN | Psychiatrist Near Me";
+$page_description = "Answers to common questions about Tranquil Minds Mental Health in Monticello, MN — getting started with a psychiatrist in Monticello, MN, insurance, Neurostar® TMS, medication management, and more.";
 $hero_title       = 'Frequently Asked<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Questions.</span>';
 $hero_subtitle    = 'Starting care brings a lot of questions — and that’s a good thing. Here are clear, honest answers to the ones we hear most.';
 $hero_badge       = 'Help &amp; Answers';

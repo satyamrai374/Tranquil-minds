@@ -1,7 +1,17 @@
 <?php
-$page_title       = "TMS Therapy for Adolescents (Ages 15+) | Tranquil Minds Mental Health";
-$page_description = "Neurostar® TMS therapy for adolescents ages 15+ in Monticello, MN — a non-drug, FDA-cleared option for teen depression, especially when medication hasn't been enough.";
-$hero_title       = 'TMS Therapy<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">for Teens (Ages 15+).</span>';
+$page_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTherapy",
+  "name": "TMS for Adolescents",
+  "url": "https://tranquilmindsmentalhealth.com/tms-adolescents.php"
+}
+</script>
+';
+$page_title       = "TMS Therapy for Teens Monticello MN | Psychiatrist Near Me";
+$page_description = "Neurostar® TMS therapy for adolescents in Monticello, MN — a non-drug option for teen depression from a psychiatrist in Monticello, MN.";
+$hero_title       = 'TMS Therapy for Teens in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
 $hero_subtitle    = 'A non-drug, FDA-cleared option for adolescents with depression — especially when medication hasn\'t been enough. Gentle, non-invasive, and family-involved.';
 $hero_badge       = 'TMS Therapy · Adolescents';
 $hero_cta1_text   = 'Book a Free Consultation';
@@ -25,7 +35,7 @@ $hero_cta2_link   = '#how';
                         <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">TMS for Adolescents</span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary mb-6 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        Hope for Teens<br>Facing Depression
+                        TMS for Teens in Monticello, MN
                     </h2>
                     <p class="text-gray-600 text-lg leading-relaxed mb-4">
                         Neurostar® TMS is now FDA-cleared as an add-on treatment for depression in adolescents ages 15 to 21. It uses gentle magnetic pulses to reactivate the brain circuits behind mood — without medication.
@@ -268,7 +278,7 @@ $hero_cta2_link   = '#how';
                         <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">Common Questions</span>
                         <span class="h-px w-12 bg-primary/40"></span>
                     </div>
-                    <h2 class="text-4xl md:text-5xl text-primary leading-tight" style="font-family: 'Bauhaus Soft', cursive;">Questions, Answered</h2>
+                    <h2 class="text-4xl md:text-5xl text-primary leading-tight" style="font-family: 'Bauhaus Soft', cursive;">Questions Answered about TMS in Monticello, MN</h2>
                 </div>
                 <div class="space-y-4 fade-in-section">
                     <?php

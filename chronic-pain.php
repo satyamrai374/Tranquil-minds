@@ -1,15 +1,15 @@
 <?php
 $cond = [
     'form_condition'   => 'Chronic Pain',
-    'page_title'       => 'Chronic Pain & Mental Health | Tranquil Minds Mental Health',
-    'page_description' => 'Whole-person support for chronic pain in Monticello, MN. We care for the emotional side of chronic pain — treating co-occurring depression, anxiety, and sleep problems alongside your medical team.',
-    'hero_title'       => 'Caring for the<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Whole You.</span>',
+    'page_title'       => 'Chronic Pain Treatment Monticello MN | Psychiatrist Near Me',
+    'page_description' => 'Whole-person support for chronic pain in Monticello, MN. A psychiatrist in Monticello, MN to treat co-occurring depression, anxiety, and sleep problems.',
+    'hero_title'       => 'Chronic Pain Management in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'Chronic pain and mental health are deeply connected. We support the emotional side of pain — working alongside your medical team — to help you reclaim your life.',
     'hero_badge'       => 'Conditions We Treat · Chronic Pain',
 
     'overview' => [
         'label'      => 'Understanding Chronic Pain',
-        'heading'    => 'The Mind-Body<br>Connection',
+        'heading'    => 'Chronic Pain Management in Monticello, MN',
         'paras'      => [
             'Chronic pain and mental health are deeply intertwined. Persistent pain wears on mood, sleep, and energy — while stress, anxiety, and depression can intensify how pain is felt. It’s a difficult, exhausting cycle.',
             'We focus on the mind-body connection, supporting your emotional well-being alongside your physical experience — so you can break the cycle and reclaim your quality of life.',
@@ -42,7 +42,7 @@ $cond = [
         'crisis_note' => '',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She supports patients across Monticello, MN who live with chronic pain by caring for the connected emotional side — treating co-occurring depression, anxiety, and sleep concerns alongside their medical team.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she supports patients across Monticello, MN who live with chronic pain by caring for the connected emotional side.',
     'provider_quote' => '“Living with pain is exhausting, and it touches everything. My focus is the whole you — easing the emotional weight of pain so you can reclaim more of your life.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'Mind-Body Care', 'Medication Management', 'Psychotherapy'],
 

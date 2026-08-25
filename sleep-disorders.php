@@ -1,15 +1,15 @@
 <?php
 $cond = [
     'form_condition'   => 'Sleep Disorders',
-    'page_title'       => 'Sleep Disorder Treatment | Tranquil Minds Mental Health',
-    'page_description' => 'Root-cause treatment for insomnia and sleep disorders in Monticello, MN. We treat the underlying anxiety, mood, and habits disrupting your sleep — with therapy (CBT-I) and thoughtful medication management.',
-    'hero_title'       => 'Restoring<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Restful Sleep.</span>',
+    'page_title'       => 'Sleep Disorder Treatment Monticello MN | Psychiatrist Near Me',
+    'page_description' => 'Root-cause treatment for insomnia and sleep disorders in Monticello, MN. Work with a psychiatrist in Monticello, MN to treat anxiety and sleep habits.',
+    'hero_title'       => 'Sleep Disorder Treatment in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'Sleep is the foundation of well-being. We treat the root cause of your sleepless nights — not just the symptom — so deep, restorative rest can return.',
     'hero_badge'       => 'Conditions We Treat · Sleep Disorders',
 
     'overview' => [
         'label'      => 'Understanding Sleep Disorders',
-        'heading'    => 'Rest Is the<br>Foundation',
+        'heading'    => 'Sleep Disorder Treatment in Monticello, MN',
         'paras'      => [
             'Sleep is the foundation of mental and physical health. When it’s disrupted — night after night — it affects your mood, focus, energy, and overall well-being, often in a frustrating cycle.',
             'Poor sleep and mental health are deeply connected. By treating the root cause rather than just the symptom, we help you rebuild the deep, restorative rest your mind and body need.',
@@ -42,7 +42,7 @@ $cond = [
         'crisis_note' => '',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She helps patients across Monticello, MN restore healthy, restorative sleep by treating the root causes — from anxiety and mood to daily habits — with therapy and thoughtful medication management.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she helps patients across Monticello, MN restore healthy, restorative sleep by treating the root causes — from anxiety and mood to daily habits — with therapy and thoughtful medication management.',
     'provider_quote' => '“Good sleep changes everything. Rather than just chasing symptoms, I look for what’s really keeping you up — and treat that, so rest can finally return.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'Sleep &amp; Insomnia', 'Medication Management', 'Psychotherapy'],
 

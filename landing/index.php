@@ -165,12 +165,12 @@ $page_description = "Schedule a free consultation for Neurostar® TMS therapy at
                     <!-- Left: Ad Copy Header (Col Span 7) -->
                     <div class="lg:col-span-7 lg:col-start-1 lg:row-start-1 order-1 space-y-4 sm:space-y-6">
                         <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading text-white leading-[1.15]">
-                            Rewiring Hope. <br>
-                            <span class="text-purple-300">One Pulse at a Time.</span>
+                            TMS Therapy <br>
+                            <span class="text-purple-300">in Monticello, MN.</span>
                         </h1>
 
                         <p class="text-base md:text-lg text-white/90 leading-relaxed max-w-2xl font-medium">
-                            If depression or anxiety has been holding you back, Neurostar® TMS offers an FDA-cleared, non-medication, non-invasive path to long-lasting relief.
+                            If depression or anxiety has been holding you back, our psychiatrist in Monticello, MN offers FDA-cleared, non-medication Neurostar® TMS for long-lasting relief.
                         </p>
                     </div>
 

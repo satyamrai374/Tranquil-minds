@@ -1,18 +1,18 @@
 <?php
 $cond = [
     'form_condition'   => 'OCD',
-    'page_title'       => 'OCD Treatment | Tranquil Minds Mental Health',
-    'page_description' => 'Specialized OCD treatment in Monticello, MN. Exposure and Response Prevention (ERP) therapy, FDA-cleared Neurostar® TMS for OCD, and medication management to break the obsessive-compulsive cycle.',
-    'hero_title'       => 'Breaking the<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Cycle of OCD.</span>',
+    'page_title'       => 'OCD Treatment Monticello MN | OCD Therapy Near Me',
+    'page_description' => 'Specialized OCD treatment near me in Monticello, MN. Exposure and Response Prevention (ERP) therapy, FDA-cleared Neurostar® TMS for OCD, and medication management to break the cycle.',
+    'hero_title'       => 'OCD Treatment in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>',
     'hero_subtitle'    => 'OCD is far more than “being neat” — and it is highly treatable. At Tranquil Minds, we use specialized, evidence-based care to help you take back control.',
     'hero_badge'       => 'Conditions We Treat · OCD',
 
     'overview' => [
         'label'      => 'Understanding OCD',
-        'heading'    => 'More Than<br>“Being Neat”',
+        'heading'    => 'TMS therapy for OCD in Monticello, MN',
         'paras'      => [
             'OCD traps the mind in a loop: distressing intrusive thoughts (obsessions) drive repetitive behaviors (compulsions) meant to relieve the anxiety. It can be exhausting, isolating, and far more than being tidy.',
-            'OCD is highly treatable. With specialized, evidence-based care, the cycle can be interrupted — and you can take back the time and freedom it steals.',
+            'OCD is highly treatable. With specialized, evidence-based care, including <a href="neurostar-tms.php" class="text-accent hover:underline font-medium">Neurostar TMS therapy</a> and <a href="medication-management.php" class="text-accent hover:underline font-medium">medication management</a>, the cycle can be interrupted — and you can take back the time and freedom it steals.',
         ],
         'points'     => [
             'A recognized medical condition — not a personality quirk',
@@ -42,7 +42,7 @@ $cond = [
         'crisis_note' => '<span class="font-bold text-primary">Feeling overwhelmed or in crisis?</span> You deserve immediate support. Call or text <a href="tel:988" class="text-accent font-bold underline">988</a> (the Suicide &amp; Crisis Lifeline) any time, day or night. If you are in danger, call 911.',
     ],
 
-    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She provides specialized, evidence-based OCD care — including Neurostar® TMS, medication management, and therapy — for patients across Monticello, MN.',
+    'provider_bio'   => 'Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She provides specialized, evidence-based OCD treatment near me — including Neurostar® TMS, medication management, and therapy — for patients across Monticello, MN.',
     'provider_quote' => '“OCD can feel relentless, but it responds remarkably well to the right treatment. Together we can quiet the noise and give you back the hours — and the freedom — it takes.”',
     'provider_creds' => ['APRN-CNP', 'PMHNP-BC', 'OCD Care', 'Neurostar® TMS', 'Medication Management'],
 

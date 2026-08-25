@@ -1,7 +1,17 @@
 <?php
-$page_title       = "Psychotherapy | Tranquil Minds Mental Health";
-$page_description = "Compassionate, evidence-based psychotherapy in Monticello, MN. A safe, judgment-free space to understand yourself, build coping skills, and heal — for depression, anxiety, trauma, and more.";
-$hero_title       = 'Healing Through<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Connection.</span>';
+$page_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTherapy",
+  "name": "Psychotherapy",
+  "url": "https://tranquilmindsmentalhealth.com/psychotherapy.php"
+}
+</script>
+';
+$page_title       = "Psychotherapy Monticello MN | Psychiatrist Near Me";
+$page_description = "Compassionate, evidence-based psychotherapy in Monticello, MN. A safe space to build coping skills with a psychiatrist in Monticello, MN.";
+$hero_title       = 'Psychotherapy in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
 $hero_subtitle    = 'Sometimes the most powerful medicine is being truly heard. Our psychotherapy offers a safe, judgment-free space to understand yourself and grow.';
 $hero_badge       = 'Our Services · Psychotherapy';
 $hero_cta1_text   = 'Book a Free Consultation';
@@ -27,7 +37,7 @@ $hero_cta2_link   = '#approach';
                         <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">What It Is</span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary mb-6 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        A Space to<br>Be Heard
+                        Psychotherapy in Monticello, MN
                     </h2>
                     <p class="text-gray-600 text-lg leading-relaxed mb-4">
                         Psychotherapy — often called talk therapy — is a collaborative, evidence-based process that helps you understand your thoughts and feelings, work through challenges, and build lasting coping skills.
@@ -195,7 +205,7 @@ $hero_cta2_link   = '#approach';
                     <h2 class="text-3xl md:text-4xl font-bold text-primary mb-1" style="font-family: 'Bauhaus Soft', cursive;">Roxanne DoBrava</h2>
                     <p class="text-accent font-semibold text-lg mb-6">Founder &amp; Psychiatric Nurse Practitioner · APRN-CNP, PMHNP-BC</p>
                     <p class="text-gray-600 leading-relaxed mb-6">
-                        Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. She combines psychotherapy with medication management and TMS to care for the whole person — with warmth and genuine attentiveness — across the Monticello, MN community.
+                        Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, she combines psychotherapy with medication management and TMS to care for the whole person — with warmth and genuine attentiveness — across the Monticello, MN community.
                     </p>
                     <p class="text-gray-600 leading-relaxed mb-8 italic">
                         &ldquo;Real healing happens in relationship. My goal is to create a space where you feel genuinely heard — and to walk with you toward the change you’re seeking.&rdquo;
@@ -277,7 +287,7 @@ $hero_cta2_link   = '#approach';
                         <span class="h-px w-12 bg-primary/40"></span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        Questions, Answered
+                        Questions Answered about Psychotherapy in Monticello, MN
                     </h2>
                 </div>
 

@@ -1,7 +1,17 @@
 <?php
-$page_title       = "Medication Management | Tranquil Minds Mental Health";
-$page_description = "Expert psychiatric medication management in Monticello, MN. Personalized, carefully monitored prescribing for depression, anxiety, ADHD, bipolar disorder, and more — never by guesswork.";
-$hero_title       = 'Medication,<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Done Thoughtfully.</span>';
+$page_schema = '
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalTherapy",
+  "name": "Medication Management",
+  "url": "https://tranquilmindsmentalhealth.com/medication-management.php"
+}
+</script>
+';
+$page_title       = "Medication Management Monticello MN | Psychiatrist Near Me";
+$page_description = "Expert psychiatric medication management in Monticello, MN. Personalized, carefully monitored prescribing from a psychiatrist in Monticello, MN for depression, anxiety, ADHD, bipolar disorder, and more — never by guesswork.";
+$hero_title       = 'Medication Management in<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Monticello, MN.</span>';
 $hero_subtitle    = 'The right medication at the right dose can be life-changing. At Tranquil Minds, prescribing is a careful, ongoing partnership — precise, monitored, and built entirely around you.';
 $hero_badge       = 'Our Services · Medication Management';
 $hero_cta1_text   = 'Book a Free Consultation';
@@ -27,7 +37,7 @@ $hero_cta2_link   = '#approach';
                         <span class="text-primary/60 font-bold tracking-widest uppercase text-xs">What It Is</span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary mb-6 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        More Than Just<br>a Prescription
+                        Medication Management in Monticello, MN
                     </h2>
                     <p class="text-gray-600 text-lg leading-relaxed mb-4">
                         Medication management is an ongoing, collaborative partnership — not a one-time script. It means carefully selecting the right medication, dialing in the dose, and monitoring how you respond over time.
@@ -195,7 +205,7 @@ $hero_cta2_link   = '#approach';
                     <h2 class="text-3xl md:text-4xl font-bold text-primary mb-1" style="font-family: 'Bauhaus Soft', cursive;">Roxanne DoBrava</h2>
                     <p class="text-accent font-semibold text-lg mb-6">Founder &amp; Psychiatric Nurse Practitioner · APRN-CNP, PMHNP-BC</p>
                     <p class="text-gray-600 leading-relaxed mb-6">
-                        Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. Medication management is central to her practice — precise, closely monitored prescribing for patients across the Monticello, MN community.
+                        Roxanne DoBrava is a board-certified Psychiatric Mental Health Nurse Practitioner (PMHNP-BC) and the founder of Tranquil Minds Mental Health. As a trusted psychiatrist in Monticello, MN alternative, medication management is central to her practice — precise, closely monitored prescribing for patients across the Monticello, MN community.
                     </p>
                     <p class="text-gray-600 leading-relaxed mb-8 italic">
                         &ldquo;The right medication, thoughtfully managed, can change a life. I take the time to get it right — and to keep it right — because you deserve nothing less.&rdquo;
@@ -277,7 +287,7 @@ $hero_cta2_link   = '#approach';
                         <span class="h-px w-12 bg-primary/40"></span>
                     </div>
                     <h2 class="text-4xl md:text-5xl text-primary leading-tight" style="font-family: 'Bauhaus Soft', cursive;">
-                        Questions, Answered
+                        Questions Answered about Medication Management in Monticello, MN
                     </h2>
                 </div>
 

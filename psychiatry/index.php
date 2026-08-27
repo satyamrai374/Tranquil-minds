@@ -97,20 +97,20 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
     </div>
 
     <!-- Header / Navigation -->
-    <header class="w-full bg-primary/95 backdrop-blur-md border-b border-white/10 sticky top-0 z-40 py-3 transition-all shadow-md">
-        <div class="container mx-auto px-4 sm:px-6 flex items-center justify-between">
+    <header class="w-full bg-primary/95 backdrop-blur-md border-b border-white/10 sticky top-0 z-40 py-2.5 sm:py-3 transition-all shadow-md">
+        <div class="container mx-auto px-3 sm:px-6 flex items-center justify-between gap-2 sm:gap-4">
             
             <!-- Brand Logo & Title -->
-            <a href="../index.php" class="flex items-center gap-2.5 sm:gap-3 group flex-shrink-0">
-                <img src="../assets/logo/Tranquil-logo.png" alt="Tranquil Minds Mental Health" class="h-8 sm:h-10 w-auto object-contain filter brightness-0 invert transition-transform group-hover:scale-105">
+            <a href="../index.php" class="flex items-center gap-2 sm:gap-2.5 md:gap-3 group flex-shrink-0">
+                <img src="../assets/logo/Tranquil-logo.png" alt="Tranquil Minds Mental Health" class="h-7 sm:h-9 md:h-10 w-auto object-contain filter brightness-0 invert transition-transform group-hover:scale-105">
                 <div class="flex flex-col">
-                    <span class="font-heading text-white font-bold text-lg sm:text-xl md:text-2xl tracking-tight leading-none group-hover:text-purple-200 transition-colors">Tranquil Minds</span>
-                    <span class="text-[10px] sm:text-[11px] text-purple-200 font-semibold tracking-wider uppercase mt-0.5 hidden xs:block">Psychiatry &amp; Medication</span>
+                    <span class="font-heading text-white font-bold text-base sm:text-lg md:text-xl xl:text-2xl tracking-tight leading-none group-hover:text-purple-200 transition-colors">Tranquil Minds</span>
+                    <span class="text-[9px] sm:text-[10px] md:text-[11px] text-purple-200 font-semibold tracking-wider uppercase mt-0.5 hidden xs:block">Psychiatry &amp; Medication</span>
                 </div>
             </a>
 
             <!-- Section Navigation (Desktop: lg+) -->
-            <nav class="hidden lg:flex items-center gap-5 xl:gap-7 font-bold text-white/90 text-xs xl:text-sm">
+            <nav class="hidden lg:flex items-center gap-3.5 xl:gap-6 2xl:gap-7 font-bold text-white/90 text-xs xl:text-sm whitespace-nowrap">
                 <a href="#services" class="hover:text-purple-200 transition-colors py-1">Services</a>
                 <a href="#conditions" class="hover:text-purple-200 transition-colors py-1">Conditions</a>
                 <a href="#why-us" class="hover:text-purple-200 transition-colors py-1">Why Us</a>
@@ -121,9 +121,9 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
             </nav>
 
             <!-- Call Out CTA & Mobile Trigger -->
-            <div class="flex items-center gap-2 sm:gap-3">
+            <div class="flex items-center gap-1.5 sm:gap-2.5 md:gap-3 flex-shrink-0">
                 <!-- Phone Call Pill -->
-                <a href="tel:+16124298280" class="inline-flex items-center gap-1.5 px-3 py-1.5 sm:px-3.5 sm:py-2 bg-white/15 hover:bg-white/25 text-white font-bold rounded-full transition-all text-xs border border-white/20 shadow-sm">
+                <a href="tel:+16124298280" class="inline-flex items-center gap-1.5 px-2.5 py-1.5 sm:px-3.5 sm:py-2 bg-white/15 hover:bg-white/25 text-white font-bold rounded-full transition-all text-[11px] sm:text-xs border border-white/20 shadow-sm flex-shrink-0">
                     <svg class="w-3.5 h-3.5 text-purple-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
@@ -131,12 +131,12 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
                 </a>
 
                 <!-- Consultation CTA Button -->
-                <a href="#consultation-form" class="hidden md:inline-flex items-center px-4 py-2 bg-white text-primary hover:bg-soft-purple font-bold rounded-full transition-all text-xs shadow-sm">
+                <a href="#consultation-form" class="hidden md:inline-flex items-center px-3.5 py-1.5 lg:px-4 lg:py-2 bg-white text-primary hover:bg-soft-purple font-bold rounded-full transition-all text-xs shadow-sm flex-shrink-0 whitespace-nowrap">
                     Book Consultation
                 </a>
 
                 <!-- Mobile Menu Button -->
-                <button id="mobile-menu-toggle" type="button" class="lg:hidden p-2 text-white hover:text-purple-200 focus:outline-none rounded-xl hover:bg-white/10 transition-colors" aria-label="Toggle Navigation Menu">
+                <button id="mobile-menu-toggle" type="button" class="lg:hidden p-1.5 sm:p-2 text-white hover:text-purple-200 focus:outline-none rounded-xl hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Toggle Navigation Menu">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>

@@ -43,6 +43,8 @@ $pages = [
     'thankyou.php' => 'thankyou.html',
     'landing/index.php' => 'landing/index.html',
     'landing/thankyou.php' => 'landing/thankyou.html',
+    'psychiatry/index.php' => 'psychiatry/index.html',
+    'psychiatry/thankyou.php' => 'psychiatry/thankyou.html',
 ];
 
 // Ensure dist folder exists

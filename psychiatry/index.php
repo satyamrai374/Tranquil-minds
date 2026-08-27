@@ -78,18 +78,18 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
 <body class="bg-cream font-sans text-primary min-h-screen flex flex-col selection:bg-primary/20 selection:text-primary antialiased pb-16 lg:pb-0">
 
     <!-- Top Announcement Bar -->
-    <div class="bg-brand-dark text-white/90 text-xs py-2 px-4 border-b border-white/10 hidden sm:block">
+    <div class="bg-brand-dark text-white/90 text-xs py-2 px-4 border-b border-white/10 hidden md:block">
         <div class="container mx-auto flex justify-between items-center">
             <div class="flex items-center gap-2">
                 <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
                 <span class="font-semibold text-purple-200">Now Accepting New Patients in Monticello &amp; Across Minnesota</span>
-                <span class="text-white/40">|</span>
-                <span>In-Person &amp; Telehealth Available</span>
+                <span class="text-white/30">•</span>
+                <span class="text-white/80">In-Person &amp; Virtual Appointments</span>
             </div>
             <div class="flex items-center gap-4 text-white/80">
-                <span class="flex items-center gap-1">
+                <span class="flex items-center gap-1.5 text-white/90">
                     <svg class="w-3.5 h-3.5 text-purple-300" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
-                    In-Network With Major Insurances
+                    In-Network Insurance &amp; Medicare
                 </span>
                 <a href="tel:+16124298280" class="text-white font-bold hover:text-purple-300 transition-colors">Call: (612) 429-8280</a>
             </div>
@@ -97,43 +97,46 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
     </div>
 
     <!-- Header / Navigation -->
-    <header class="w-full bg-primary/95 backdrop-blur-md border-b border-white/10 sticky top-0 z-40 py-3.5 transition-all shadow-md">
+    <header class="w-full bg-primary/95 backdrop-blur-md border-b border-white/10 sticky top-0 z-40 py-3 transition-all shadow-md">
         <div class="container mx-auto px-4 sm:px-6 flex items-center justify-between">
+            
             <!-- Brand Logo & Title -->
-            <a href="../index.php" class="flex items-center gap-2 sm:gap-3 group">
-                <img src="../assets/logo/Tranquil-logo.png" alt="Tranquil Minds Mental Health" class="h-9 sm:h-11 w-auto object-contain filter brightness-0 invert">
+            <a href="../index.php" class="flex items-center gap-2.5 sm:gap-3 group flex-shrink-0">
+                <img src="../assets/logo/Tranquil-logo.png" alt="Tranquil Minds Mental Health" class="h-8 sm:h-10 w-auto object-contain filter brightness-0 invert transition-transform group-hover:scale-105">
                 <div class="flex flex-col">
-                    <span class="font-heading text-white font-bold text-lg sm:text-2xl tracking-tight leading-none group-hover:text-purple-200 transition-colors">Tranquil Minds</span>
-                    <span class="text-[10px] sm:text-xs text-purple-200 font-semibold tracking-wider uppercase mt-0.5">Psychiatry &amp; Wellness</span>
+                    <span class="font-heading text-white font-bold text-lg sm:text-xl md:text-2xl tracking-tight leading-none group-hover:text-purple-200 transition-colors">Tranquil Minds</span>
+                    <span class="text-[10px] sm:text-[11px] text-purple-200 font-semibold tracking-wider uppercase mt-0.5 hidden xs:block">Psychiatry &amp; Medication</span>
                 </div>
             </a>
 
-            <!-- Section Navigation (Desktop) -->
-            <nav class="hidden lg:flex items-center gap-7 font-bold text-white/90 text-sm">
-                <a href="#services" class="hover:text-purple-200 transition-colors">Services</a>
-                <a href="#conditions" class="hover:text-purple-200 transition-colors">Conditions</a>
-                <a href="#why-us" class="hover:text-purple-200 transition-colors">Why Choose Us</a>
-                <a href="#doctor" class="hover:text-purple-200 transition-colors">Meet Provider</a>
-                <a href="#reviews" class="hover:text-purple-200 transition-colors">Reviews</a>
-                <a href="#insurance" class="hover:text-purple-200 transition-colors">Insurance</a>
-                <a href="#faq" class="hover:text-purple-200 transition-colors">FAQ</a>
+            <!-- Section Navigation (Desktop: lg+) -->
+            <nav class="hidden lg:flex items-center gap-5 xl:gap-7 font-bold text-white/90 text-xs xl:text-sm">
+                <a href="#services" class="hover:text-purple-200 transition-colors py-1">Services</a>
+                <a href="#conditions" class="hover:text-purple-200 transition-colors py-1">Conditions</a>
+                <a href="#why-us" class="hover:text-purple-200 transition-colors py-1">Why Us</a>
+                <a href="#doctor" class="hover:text-purple-200 transition-colors py-1">Provider</a>
+                <a href="#reviews" class="hover:text-purple-200 transition-colors py-1">Reviews</a>
+                <a href="#insurance" class="hover:text-purple-200 transition-colors py-1">Insurance</a>
+                <a href="#faq" class="hover:text-purple-200 transition-colors py-1">FAQ</a>
             </nav>
 
             <!-- Call Out CTA & Mobile Trigger -->
-            <div class="flex items-center gap-2.5">
-                <a href="tel:+16124298280" class="inline-flex items-center gap-2 px-3.5 py-2 sm:px-4 sm:py-2.5 bg-white/15 hover:bg-white/25 text-white font-bold rounded-full transition-all text-xs sm:text-sm border border-white/20 shadow-sm">
-                    <svg class="w-4 h-4 text-purple-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="flex items-center gap-2 sm:gap-3">
+                <!-- Phone Call Pill -->
+                <a href="tel:+16124298280" class="inline-flex items-center gap-1.5 px-3 py-1.5 sm:px-3.5 sm:py-2 bg-white/15 hover:bg-white/25 text-white font-bold rounded-full transition-all text-xs border border-white/20 shadow-sm">
+                    <svg class="w-3.5 h-3.5 text-purple-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
-                    <span class="hidden md:inline">Call:</span> <span>(612) 429-8280</span>
+                    <span class="hidden sm:inline">Call:</span> <span>(612) 429-8280</span>
                 </a>
 
-                <a href="#consultation-form" class="hidden sm:inline-flex items-center px-4 py-2.5 bg-primary-dark hover:bg-primary-light text-white font-bold rounded-full transition-all text-xs sm:text-sm border border-purple-400/30">
+                <!-- Consultation CTA Button -->
+                <a href="#consultation-form" class="hidden md:inline-flex items-center px-4 py-2 bg-white text-primary hover:bg-soft-purple font-bold rounded-full transition-all text-xs shadow-sm">
                     Book Consultation
                 </a>
 
                 <!-- Mobile Menu Button -->
-                <button id="mobile-menu-toggle" type="button" class="lg:hidden p-2 text-white hover:text-purple-200 focus:outline-none" aria-label="Toggle Navigation Menu">
+                <button id="mobile-menu-toggle" type="button" class="lg:hidden p-2 text-white hover:text-purple-200 focus:outline-none rounded-xl hover:bg-white/10 transition-colors" aria-label="Toggle Navigation Menu">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
@@ -145,40 +148,68 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
     <!-- Mobile Drawer Overlay -->
     <div id="mobile-menu-drawer" class="fixed inset-0 z-50 flex justify-end bg-black/60 backdrop-blur-xs opacity-0 pointer-events-none transition-opacity duration-300">
         <div class="absolute inset-0 bg-transparent" id="mobile-menu-overlay-click"></div>
-        <div class="relative w-80 bg-white h-full shadow-2xl p-6 flex flex-col justify-between transform translate-x-full transition-transform duration-300">
+        <div class="relative w-80 max-w-[85vw] bg-white h-full shadow-2xl p-5 sm:p-6 flex flex-col justify-between transform translate-x-full transition-transform duration-300 overflow-y-auto">
             <div>
-                <div class="flex items-center justify-between pb-5 border-b border-primary/10">
+                <!-- Drawer Header -->
+                <div class="flex items-center justify-between pb-4 border-b border-primary/10">
                     <div class="flex items-center gap-2">
                         <img src="../assets/logo/Tranquil-logo.png" alt="Tranquil Minds" class="h-7 w-auto">
                         <span class="font-heading text-primary font-bold text-lg">Tranquil Minds</span>
                     </div>
-                    <button id="mobile-menu-close" type="button" class="p-1.5 text-primary hover:text-primary-dark focus:outline-none" aria-label="Close menu">
+                    <button id="mobile-menu-close" type="button" class="p-1.5 text-primary hover:text-primary-dark rounded-lg hover:bg-primary/5 focus:outline-none" aria-label="Close menu">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path>
                         </svg>
                     </button>
                 </div>
 
-                <nav class="flex flex-col gap-4 pt-6 font-bold text-base text-primary/80">
-                    <a href="#consultation-form" class="mobile-nav-link text-primary hover:text-primary-dark">Schedule Consultation</a>
-                    <a href="#services" class="mobile-nav-link hover:text-primary">Psychiatry Services</a>
-                    <a href="#conditions" class="mobile-nav-link hover:text-primary">Conditions We Treat</a>
-                    <a href="#why-us" class="mobile-nav-link hover:text-primary">Why Tranquil Minds</a>
-                    <a href="#doctor" class="mobile-nav-link hover:text-primary">Meet Provider</a>
-                    <a href="#reviews" class="mobile-nav-link hover:text-primary">Patient Reviews</a>
-                    <a href="#insurance" class="mobile-nav-link hover:text-primary">Insurance Coverage</a>
-                    <a href="#faq" class="mobile-nav-link hover:text-primary">FAQs</a>
+                <!-- Primary CTA inside drawer -->
+                <div class="pt-4 pb-2">
+                    <a href="#consultation-form" class="mobile-nav-link block w-full py-3 px-4 bg-primary text-white text-center font-bold rounded-xl shadow-md text-sm hover:bg-primary-dark transition-colors">
+                        Request Free Consultation
+                    </a>
+                </div>
+
+                <!-- Navigation List -->
+                <nav class="flex flex-col gap-1 pt-2 font-bold text-sm text-primary/80">
+                    <a href="#services" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl hover:bg-soft-purple hover:text-primary transition-colors">
+                        <span>Psychiatry Services</span>
+                        <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </a>
+                    <a href="#conditions" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl hover:bg-soft-purple hover:text-primary transition-colors">
+                        <span>Conditions We Treat</span>
+                        <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </a>
+                    <a href="#why-us" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl hover:bg-soft-purple hover:text-primary transition-colors">
+                        <span>Why Tranquil Minds</span>
+                        <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </a>
+                    <a href="#doctor" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl hover:bg-soft-purple hover:text-primary transition-colors">
+                        <span>Meet Provider (Roxanne)</span>
+                        <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </a>
+                    <a href="#reviews" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl hover:bg-soft-purple hover:text-primary transition-colors">
+                        <span>Patient Reviews (4.5★)</span>
+                        <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </a>
+                    <a href="#insurance" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl hover:bg-soft-purple hover:text-primary transition-colors">
+                        <span>Insurance &amp; Coverage</span>
+                        <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </a>
+                    <a href="#faq" class="mobile-nav-link flex items-center justify-between py-2.5 px-3 rounded-xl hover:bg-soft-purple hover:text-primary transition-colors">
+                        <span>Frequently Asked Questions</span>
+                        <svg class="w-4 h-4 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </a>
                 </nav>
             </div>
 
-            <div class="pt-6 border-t border-primary/10 text-xs text-primary/70 space-y-2.5">
-                <p class="font-bold text-primary text-sm">Monticello Psychiatric Clinic</p>
-                <p class="leading-relaxed">154 East Broadway Street Suite 2,<br>Monticello, MN 55362</p>
-                <div class="pt-2 space-y-1">
-                    <a href="tel:+16124298280" class="block text-primary font-bold text-sm">Phone: (612) 429-8280</a>
-                    <p>Fax: 855-239-8566</p>
-                    <a href="mailto:roxannedpmhnp@gmail.com" class="block text-primary hover:underline break-all">roxannedpmhnp@gmail.com</a>
-                </div>
+            <!-- Drawer Footer Contact -->
+            <div class="pt-5 border-t border-primary/10 text-xs text-primary/70 space-y-2 mt-4">
+                <a href="tel:+16124298280" class="flex items-center justify-center gap-2 py-2.5 bg-soft-purple text-primary font-bold rounded-xl text-center w-full">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    <span>Call (612) 429-8280</span>
+                </a>
+                <p class="text-center text-[11px] text-gray-500 pt-1">154 E Broadway St #2, Monticello, MN</p>
             </div>
         </div>
     </div>
@@ -267,7 +298,7 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
                     </div>
 
                     <!-- Right: Lead Capture Form Card (5 Cols) -->
-                    <div class="lg:col-span-5 w-full" id="consultation-form">
+                    <div class="lg:col-span-5 w-full scroll-mt-20 sm:scroll-mt-24" id="consultation-form">
                         <div class="bg-white p-5 sm:p-6 md:p-8 rounded-3xl shadow-xl border border-primary/10 relative">
                             <h3 class="text-xl sm:text-2xl font-heading text-primary font-bold mb-1">Request Consultation</h3>
                             <p class="text-[11px] sm:text-xs text-primary/80 font-semibold mb-4 leading-normal">Fill out this secure form. Our clinical team will reach out promptly to schedule your visit and verify insurance.</p>
@@ -384,7 +415,7 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
         </section>
 
         <!-- ================= PSYCHIATRY SERVICES SECTION ================= -->
-        <section id="services" class="py-12 sm:py-20 bg-cream">
+        <section id="services" class="scroll-mt-20 sm:scroll-mt-24 py-12 sm:py-20 bg-cream">
             <div class="container mx-auto px-4 sm:px-6">
                 
                 <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
@@ -481,7 +512,7 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
         </section>
 
         <!-- ================= CONDITIONS WE TREAT GRID ================= -->
-        <section id="conditions" class="py-12 sm:py-20 bg-white border-t border-primary/10">
+        <section id="conditions" class="scroll-mt-20 sm:scroll-mt-24 py-12 sm:py-20 bg-white border-t border-primary/10">
             <div class="container mx-auto px-4 sm:px-6">
                 
                 <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
@@ -579,7 +610,7 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
         </section>
 
         <!-- ================= WHY TRANQUIL MINDS (MOBILE OPTIMIZED COMPARISON) ================= -->
-        <section id="why-us" class="py-12 sm:py-20 bg-cream">
+        <section id="why-us" class="scroll-mt-20 sm:scroll-mt-24 py-12 sm:py-20 bg-cream">
             <div class="container mx-auto px-4 sm:px-6 max-w-5xl">
                 
                 <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-12">
@@ -857,7 +888,7 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
         </section>
 
         <!-- ================= PROVIDER SPOTLIGHT ================= -->
-        <section id="doctor" class="py-12 sm:py-20 bg-white border-t border-primary/10">
+        <section id="doctor" class="scroll-mt-20 sm:scroll-mt-24 py-12 sm:py-20 bg-white border-t border-primary/10">
             <div class="container mx-auto px-4 sm:px-6">
                 <div class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
                     
@@ -923,7 +954,7 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
         </section>
 
         <!-- ================= WRITTEN PATIENT REVIEWS & TESTIMONIALS (SINGLE ROW SLIDER) ================= -->
-        <section id="reviews" class="py-12 sm:py-20 bg-cream border-t border-primary/10 relative overflow-hidden">
+        <section id="reviews" class="scroll-mt-20 sm:scroll-mt-24 py-12 sm:py-20 bg-cream border-t border-primary/10 relative overflow-hidden">
             <!-- Background Blurs -->
             <div class="absolute top-0 right-0 w-80 h-80 bg-primary/5 rounded-full blur-[100px] pointer-events-none"></div>
             <div class="absolute bottom-0 left-0 w-80 h-80 bg-purple-400/5 rounded-full blur-[100px] pointer-events-none"></div>
@@ -1256,7 +1287,7 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
         </section>
 
         <!-- ================= INSURANCE VERIFICATION SECTION ================= -->
-        <section id="insurance" class="py-14 sm:py-20 bg-cream border-t border-primary/10">
+        <section id="insurance" class="scroll-mt-20 sm:scroll-mt-24 py-14 sm:py-20 bg-cream border-t border-primary/10">
             <div class="container mx-auto px-4 sm:px-6 max-w-4xl text-center">
                 <div class="bg-white border-2 border-primary/10 rounded-3xl p-8 sm:p-12 shadow-xl">
                     <span class="text-primary font-bold uppercase tracking-widest text-xs">Affordable &amp; In-Network</span>
@@ -1290,7 +1321,7 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
         </section>
 
         <!-- ================= FAQ ACCORDION ================= -->
-        <section id="faq" class="py-14 sm:py-20 bg-white border-t border-primary/10">
+        <section id="faq" class="scroll-mt-20 sm:scroll-mt-24 py-14 sm:py-20 bg-white border-t border-primary/10">
             <div class="container mx-auto px-4 sm:px-6 max-w-4xl">
                 
                 <div class="text-center mb-12">

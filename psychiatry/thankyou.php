@@ -26,10 +26,11 @@ $page_description = "Thank you for requesting a psychiatric consultation at Tran
 
       gtag('config', 'AW-17988087500');
     </script>
-    <!-- Event snippet for Submit lead form conversion page -->
+
+    <!-- Event snippet for Submit lead form Psy conversion page -->
     <script>
       gtag('event', 'conversion', {
-          'send_to': 'AW-17988087500/vKtoCMeOidIcEMzdsYFD',
+          'send_to': 'AW-17988087500/ds_3CI7C6egcEMzdsYFD',
           'value': 1.0,
           'currency': 'USD'
       });

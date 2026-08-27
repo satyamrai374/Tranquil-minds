@@ -463,6 +463,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
     
     <!-- Page-Specific JSON-LD Schema (if defined) -->
     <?php if (isset($page_schema)) { echo $page_schema; } ?>
+    <?php if (isset($extra_head)) { echo $extra_head; } ?>
 </head>
 
 <body>

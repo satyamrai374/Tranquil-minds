@@ -2,6 +2,27 @@
 $page_title       = "Thank You | Tranquil Minds Mental Health";
 $page_description = "Thank you for contacting Tranquil Minds Mental Health. A member of our care team will reach out within one business day to schedule your free 15-minute consultation.";
 $hide_contact     = true; // Thank-you page should not repeat the contact form
+
+$extra_head = <<<HTML
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17988087500"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-17988087500');
+    </script>
+
+    <!-- Event snippet for Submit lead form TMS conversion page -->
+    <script>
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17988087500/e5mICKCe6egcEMzdsYFD',
+          'value': 1.0,
+          'currency': 'USD'
+      });
+    </script>
+HTML;
 ?>
 <?php include 'header.php'; ?>
 

@@ -233,11 +233,11 @@ $hero_cta2_link   = '#content';
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://tranquilmindsmh.com/how-tms-works.php"
+        "@id": "https://tranquilmindsmentalhealth.com/how-tms-works.php"
       },
       "headline": "How Does TMS Therapy Work for Depression?",
       "description": "Learn how TMS therapy works for depression, who it's for, what to expect during treatment, and why NeuroStar TMS is an effective medication-free option at Tranquil Minds Mental Health in Monticello, MN.",
-      "image": "https://tranquilmindsmh.com/assets/blog/tms-works.png",  
+      "image": "https://tranquilmindsmentalhealth.com/assets/blog/tms-works.png",  
       "author": {
         "@type": "Organization",
         "name": "Tranquil Minds Mental Health"
@@ -247,7 +247,7 @@ $hero_cta2_link   = '#content';
         "name": "Tranquil Minds Mental Health",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://tranquilmindsmh.com/assets/logo.png"
+          "url": "https://tranquilmindsmentalhealth.com/assets/logo/Tranquil-logo.png"
         }
       },
       "datePublished": "2024-07-26"

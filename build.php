@@ -41,6 +41,7 @@ $pages = [
     'is-tms-therapy-covered-by-medicare.php' => 'is-tms-therapy-covered-by-medicare.html',
     'tms-clinic-seo.php' => 'tms-clinic-seo.html',
     'how-to-get-more-patients.php' => 'how-to-get-more-patients.html',
+    'does-medicaid-cover-psychotherapy.php' => 'does-medicaid-cover-psychotherapy.html',
     'terms-of-service.php' => 'terms-of-service.html',
     'privacy-policy.php' => 'privacy-policy.html',
     'accessibility-statement.php' => 'accessibility-statement.html',

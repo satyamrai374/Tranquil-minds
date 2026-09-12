@@ -1,0 +1,15 @@
+# ==============================================================================
+# Tranquil Minds Mental Health - Root Apache Configuration
+# ==============================================================================
+
+DirectoryIndex index.php index.html
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirect old blog.php to /blog/
+    RewriteRule ^blog\.php$ /blog/ [R=301,L,NC]
+
+    # Redirect old root blog posts to /blog/[slug].php
+    RewriteRule ^(does-medicaid-cover-psychotherapy|creyos-cognitive-testing-guide|when-to-consider-tms-depression|how-to-get-more-patients|tms-therapy-side-effects|tms-clinic-seo|is-tms-therapy-covered-by-medicare|tms-cost-insurance|how-tms-works)(\.php|\.html)?$ /blog/$1.php [R=301,L,NC]
+</IfModule>

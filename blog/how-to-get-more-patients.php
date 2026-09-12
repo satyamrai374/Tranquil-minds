@@ -9,12 +9,12 @@ $hero_cta1_link   = '#contact';
 $hero_cta2_text   = 'Read Guide';
 $hero_cta2_link   = '#content';
 ?>
-<?php include 'header.php'; ?>
-<?php include 'hero-service.php'; ?>
+<?php include __DIR__ . '/../header.php'; ?>
+<?php include __DIR__ . '/../hero-service.php'; ?>
 
     <section id="content" class="py-10 bg-white relative overflow-hidden">
         <div class="w-full relative z-10 text-center">
-            <img src="assets/blog/mental_health_patients.png" alt="How to Get More Patients for Your Mental Health Practice" class="w-full max-w-5xl mx-auto h-[400px] object-cover mb-10 rounded-3xl shadow-md">
+            <img src="../assets/blog/mental_health_patients.png" alt="How to Get More Patients for Your Mental Health Practice" class="w-full max-w-5xl mx-auto h-[400px] object-cover mb-10 rounded-3xl shadow-md">
             <div class="w-full px-4 md:px-12 lg:px-20 text-left">
                 <div class="prose prose-lg max-w-none text-gray-600">
                     
@@ -59,4 +59,4 @@ $hero_cta2_link   = '#content';
         </div>
     </section>
 
-<?php include 'footer.php'; ?>
+<?php include __DIR__ . '/../footer.php'; ?>

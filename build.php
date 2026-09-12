@@ -35,13 +35,14 @@ $pages = [
     'creyos.php' => 'creyos.html',
     'contact.php' => 'contact.html',
     'blog.php' => 'blog.html',
-    'how-tms-works.php' => 'how-tms-works.html',
-    'tms-cost-insurance.php' => 'tms-cost-insurance.html',
-    'tms-therapy-side-effects.php' => 'tms-therapy-side-effects.html',
-    'is-tms-therapy-covered-by-medicare.php' => 'is-tms-therapy-covered-by-medicare.html',
-    'tms-clinic-seo.php' => 'tms-clinic-seo.html',
-    'how-to-get-more-patients.php' => 'how-to-get-more-patients.html',
-    'does-medicaid-cover-psychotherapy.php' => 'does-medicaid-cover-psychotherapy.html',
+    'blog/index.php' => 'blog/index.html',
+    'blog/does-medicaid-cover-psychotherapy.php' => 'blog/does-medicaid-cover-psychotherapy.html',
+    'blog/how-to-get-more-patients.php' => 'blog/how-to-get-more-patients.html',
+    'blog/tms-therapy-side-effects.php' => 'blog/tms-therapy-side-effects.html',
+    'blog/tms-clinic-seo.php' => 'blog/tms-clinic-seo.html',
+    'blog/is-tms-therapy-covered-by-medicare.php' => 'blog/is-tms-therapy-covered-by-medicare.html',
+    'blog/tms-cost-insurance.php' => 'blog/tms-cost-insurance.html',
+    'blog/how-tms-works.php' => 'blog/how-tms-works.html',
     'terms-of-service.php' => 'terms-of-service.html',
     'privacy-policy.php' => 'privacy-policy.html',
     'accessibility-statement.php' => 'accessibility-statement.html',
@@ -130,6 +131,13 @@ foreach ($seoFiles as $seoFile) {
         copy($seoFile, 'dist/' . $seoFile);
         echo "Copied: $seoFile to dist/\n";
     }
+}
+
+// Copy blog .htaccess to dist
+if (file_exists('blog/.htaccess')) {
+    if (!is_dir('dist/blog')) mkdir('dist/blog', 0755, true);
+    copy('blog/.htaccess', 'dist/blog/.htaccess');
+    echo "Copied: blog/.htaccess to dist/blog/\n";
 }
 
 echo "\nBuild complete: All pages generated successfully!\n";

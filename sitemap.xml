@@ -194,52 +194,52 @@
 
     <!-- ==================== BLOG & GUIDES ==================== -->
     <url>
-        <loc>https://tranquilmindsmentalhealth.com/blog.html</loc>
-        <lastmod>2026-09-01</lastmod>
+        <loc>https://tranquilmindsmentalhealth.com/blog/</loc>
+        <lastmod>2026-09-12</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
-        <loc>https://tranquilmindsmentalhealth.com/how-tms-works.html</loc>
-        <lastmod>2026-09-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://tranquilmindsmentalhealth.com/tms-cost-insurance.html</loc>
-        <lastmod>2026-09-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://tranquilmindsmentalhealth.com/tms-therapy-side-effects.html</loc>
-        <lastmod>2026-09-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://tranquilmindsmentalhealth.com/is-tms-therapy-covered-by-medicare.html</loc>
-        <lastmod>2026-09-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.75</priority>
-    </url>
-    <url>
-        <loc>https://tranquilmindsmentalhealth.com/tms-clinic-seo.html</loc>
-        <lastmod>2026-09-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.70</priority>
-    </url>
-    <url>
-        <loc>https://tranquilmindsmentalhealth.com/how-to-get-more-patients.html</loc>
-        <lastmod>2026-09-01</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.70</priority>
-    </url>
-    <url>
-        <loc>https://tranquilmindsmentalhealth.com/does-medicaid-cover-psychotherapy.html</loc>
+        <loc>https://tranquilmindsmentalhealth.com/blog/does-medicaid-cover-psychotherapy.html</loc>
         <lastmod>2026-09-11</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/how-to-get-more-patients.html</loc>
+        <lastmod>2026-08-19</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/tms-therapy-side-effects.html</loc>
+        <lastmod>2026-08-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/tms-clinic-seo.html</loc>
+        <lastmod>2026-08-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/is-tms-therapy-covered-by-medicare.html</loc>
+        <lastmod>2026-08-06</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/tms-cost-insurance.html</loc>
+        <lastmod>2026-08-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/how-tms-works.html</loc>
+        <lastmod>2026-07-26</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.75</priority>
     </url>
 
     <!-- ==================== LEGAL & COMPLIANCE ==================== -->

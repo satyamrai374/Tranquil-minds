@@ -3,21 +3,21 @@ $page_title       = "Does Medicaid Cover Psychotherapy? Complete Benefits & Cost
 $page_description = "Does Medicaid cover psychotherapy? Yes. Learn how Medicaid covers outpatient talk therapy, CBT, session limits, cost-sharing, and Minnesota Medical Assistance benefits.";
 $hero_title       = 'Does Medicaid Cover Psychotherapy?<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Complete Benefits &amp; Cost Guide.</span>';
 $hero_subtitle    = 'A comprehensive, evidence-based guide to Medicaid psychotherapy coverage, covered therapy modalities, session limits, and finding compassionate care in Minnesota.';
-$hero_badge       = 'September 11 · Psychotherapy & Insurance';
+$hero_badge       = 'September 11, 2026 · 7 min read · Psychotherapy & Insurance';
 $hero_cta1_text   = 'Book a Free Consultation';
 $hero_cta1_link   = '#contact';
 $hero_cta2_text   = 'Read Guide';
 $hero_cta2_link   = '#content';
 ?>
-<?php include 'header.php'; ?>
-<?php include 'hero-service.php'; ?>
+<?php include __DIR__ . '/../header.php'; ?>
+<?php include __DIR__ . '/../hero-service.php'; ?>
 
     <!-- ===== ARTICLE CONTENT ===== -->
     <section id="content" class="py-8 sm:py-12 bg-white relative overflow-hidden">
         <div class="w-full relative z-10 text-center">
             <!-- Responsive Featured Hero Thumbnail Image -->
             <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-8 sm:mb-10">
-                <img src="assets/blog/does-medicaid-cover-psychotherapy.png" alt="Compassionate adult psychotherapy session in a comfortable, modern healthcare office" class="w-full h-[220px] sm:h-[320px] md:h-[400px] object-cover rounded-2xl md:rounded-3xl shadow-md">
+                <img src="../assets/blog/does-medicaid-cover-psychotherapy.png" alt="Compassionate adult psychotherapy session in a comfortable, modern healthcare office" class="w-full h-[220px] sm:h-[320px] md:h-[400px] object-cover rounded-2xl md:rounded-3xl shadow-md">
             </div>
             
             <div class="w-full px-4 sm:px-8 md:px-12 lg:px-20 text-left">
@@ -76,7 +76,7 @@ $hero_cta2_link   = '#content';
                         <p class="text-gray-600 mb-6 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
                             Our team at Tranquil Minds Mental Health coordinates directly with your insurance plan to verify benefits before your first visit, ensuring total clarity and peace of mind.
                         </p>
-                        <a href="contact.php" class="inline-block w-full sm:w-auto px-7 py-3.5 bg-accent text-white rounded-full font-bold hover:bg-accent-light hover:-translate-y-1 hover:shadow-lg transition-all duration-300 text-center">Book Your Free Consultation</a>
+                        <a href="../contact.php" class="inline-block w-full sm:w-auto px-7 py-3.5 bg-accent text-white rounded-full font-bold hover:bg-accent-light hover:-translate-y-1 hover:shadow-lg transition-all duration-300 text-center">Book Your Free Consultation</a>
                     </div>
 
                     <!-- Section 2: Clinical Modalities -->
@@ -118,7 +118,7 @@ $hero_cta2_link   = '#content';
                     </p>
                     <ul class="list-disc pl-5 sm:pl-6 space-y-2 mb-6 text-base sm:text-lg text-gray-600">
                         <li>
-                            <strong>Cognitive Behavioral Therapy (CBT):</strong> Widely considered the first-line standard for identifying cognitive distortions and addressing symptoms of <a href="depression.php" class="text-accent underline hover:text-accent-light">major depression</a> and <a href="anxiety.php" class="text-accent underline hover:text-accent-light">generalized anxiety</a>.
+                            <strong>Cognitive Behavioral Therapy (CBT):</strong> Widely considered the first-line standard for identifying cognitive distortions and addressing symptoms of <a href="../depression.php" class="text-accent underline hover:text-accent-light">major depression</a> and <a href="../anxiety.php" class="text-accent underline hover:text-accent-light">generalized anxiety</a>.
                         </li>
                         <li>
                             <strong>Dialectical Behavior Therapy (DBT):</strong> Concentrates on mindfulness, emotion regulation, interpersonal effectiveness, and distress tolerance skills.
@@ -131,7 +131,7 @@ $hero_cta2_link   = '#content';
                         </li>
                     </ul>
                     <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-4">
-                        Discover more about our therapeutic framework on our <a href="psychotherapy.php" class="text-accent underline hover:text-accent-light">Psychotherapy Services page</a>.
+                        Discover more about our therapeutic framework on our <a href="../psychotherapy.php" class="text-accent underline hover:text-accent-light">Psychotherapy Services page</a>.
                     </p>
 
                     <!-- Section 3: Medical Necessity & Diagnostic Assessments -->
@@ -160,7 +160,7 @@ $hero_cta2_link   = '#content';
                                 <span class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-1">&#10003;</span>
                                 <div>
                                     <strong class="text-primary text-base sm:text-lg block mb-1">Psychiatric Nurse Practitioners (PMHNP-BC) &amp; Psychiatrists (MD/DO)</strong>
-                                    Advanced medical clinicians qualified to conduct therapy, perform psychiatric evaluations, and oversee collaborative <a href="medication-management.php" class="text-accent underline hover:text-accent-light">medication management</a>.
+                                    Advanced medical clinicians qualified to conduct therapy, perform psychiatric evaluations, and oversee collaborative <a href="../medication-management.php" class="text-accent underline hover:text-accent-light">medication management</a>.
                                 </div>
                             </li>
                             <li class="flex items-start gap-3">
@@ -181,7 +181,7 @@ $hero_cta2_link   = '#content';
                                 <span class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-1">&#10003;</span>
                                 <div>
                                     <strong class="text-primary text-base sm:text-lg block mb-1">Licensed Psychologists (PhD / PsyD)</strong>
-                                    Experts providing targeted psychotherapy and standardized testing, such as <a href="creyos.php" class="text-accent underline hover:text-accent-light">Creyos cognitive assessments</a>.
+                                    Experts providing targeted psychotherapy and standardized testing, such as <a href="../creyos.php" class="text-accent underline hover:text-accent-light">Creyos cognitive assessments</a>.
                                 </div>
                             </li>
                         </ul>
@@ -268,8 +268,8 @@ $hero_cta2_link   = '#content';
                             From one-on-one psychotherapy to psychiatric assessments and medication optimization, Tranquil Minds Mental Health offers attentive, science-backed support.
                         </p>
                         <div class="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
-                            <a href="contact.php" class="inline-block w-full sm:w-auto px-7 py-3.5 bg-accent text-white rounded-full font-bold hover:bg-accent-light hover:-translate-y-1 transition-all duration-300 text-center">Book Free 15-Min Consultation</a>
-                            <a href="insurance.php" class="inline-block w-full sm:w-auto px-7 py-3.5 bg-white/10 border border-white/20 text-white rounded-full font-bold hover:bg-white/20 transition-all duration-300 text-center">View Accepted Insurance Plans</a>
+                            <a href="../contact.php" class="inline-block w-full sm:w-auto px-7 py-3.5 bg-accent text-white rounded-full font-bold hover:bg-accent-light hover:-translate-y-1 transition-all duration-300 text-center">Book Free 15-Min Consultation</a>
+                            <a href="../insurance.php" class="inline-block w-full sm:w-auto px-7 py-3.5 bg-white/10 border border-white/20 text-white rounded-full font-bold hover:bg-white/20 transition-all duration-300 text-center">View Accepted Insurance Plans</a>
                         </div>
                     </div>
 
@@ -312,11 +312,11 @@ $hero_cta2_link   = '#content';
                     <!-- Section 9: Advanced Interventions -->
                     <h2 class="text-2xl sm:text-3xl text-primary mt-10 sm:mt-12 mb-4 sm:mb-5 leading-tight" style="font-family: 'Bauhaus Soft', cursive;">When Psychotherapy Alone Isn't Enough: Next-Level Care</h2>
                     <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-4">
-                        While psychotherapy is essential for personal growth and emotional processing, individuals experiencing <a href="treatment-resistant-depression.php" class="text-accent underline hover:text-accent-light">treatment-resistant depression</a> or severe mood disorders may benefit from multi-modal treatment strategies:
+                        While psychotherapy is essential for personal growth and emotional processing, individuals experiencing <a href="../treatment-resistant-depression.php" class="text-accent underline hover:text-accent-light">treatment-resistant depression</a> or severe mood disorders may benefit from multi-modal treatment strategies:
                     </p>
                     <ul class="list-disc pl-5 sm:pl-6 space-y-2 mb-6 text-base sm:text-lg text-gray-600">
                         <li>
-                            <strong>Transcranial Magnetic Stimulation (TMS):</strong> An FDA-cleared, non-invasive therapy using targeted magnetic pulses to activate underactive mood networks. Read <a href="how-tms-works.php" class="text-accent underline hover:text-accent-light">how TMS works</a> and explore our <a href="neurostar-tms.php" class="text-accent underline hover:text-accent-light">NeuroStar® TMS therapy</a>.
+                            <strong>Transcranial Magnetic Stimulation (TMS):</strong> An FDA-cleared, non-invasive therapy using targeted magnetic pulses to activate underactive mood networks. Read <a href="how-tms-works.php" class="text-accent underline hover:text-accent-light">how TMS works</a> and explore our <a href="../neurostar-tms.php" class="text-accent underline hover:text-accent-light">NeuroStar® TMS therapy</a>.
                         </li>
                         <li>
                             <strong>Synchronized Medication Management:</strong> Aligning psychiatric prescriptions with ongoing therapy delivers significantly higher remission and wellness outcomes.
@@ -446,7 +446,7 @@ $hero_cta2_link   = '#content';
                         At <strong>Tranquil Minds Mental Health</strong> in Monticello, MN, we believe in delivering compassionate, evidence-based care tailored to your unique journey. Whether you are seeking individual talk therapy, psychiatric medication evaluation, or advanced interventions, our experienced clinical team is here to support you every step of the way.
                     </p>
                     <p class="text-gray-600 text-base sm:text-lg leading-relaxed mb-4">
-                        Explore our clinical services on our <a href="psychotherapy.php" class="text-accent underline hover:text-accent-light">Psychotherapy clinic page</a>, read about our <a href="psychiatry/index.php" class="text-accent underline hover:text-accent-light">Monticello Psychiatric Services</a>, or contact us today to schedule your consultation.
+                        Explore our clinical services on our <a href="../psychotherapy.php" class="text-accent underline hover:text-accent-light">Psychotherapy clinic page</a>, read about our <a href="../psychiatry/index.php" class="text-accent underline hover:text-accent-light">Monticello Psychiatric Services</a>, or contact us today to schedule your consultation.
                     </p>
 
                 </div>
@@ -563,4 +563,4 @@ $hero_cta2_link   = '#content';
     }
     </script>
 
-<?php include 'footer.php'; ?>
+<?php include __DIR__ . '/../footer.php'; ?>

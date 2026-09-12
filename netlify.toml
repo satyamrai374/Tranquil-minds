@@ -1,3 +1,43 @@
 [build]
   command = "php build.php"
   publish = "dist"
+
+[[redirects]]
+  from = "/blog.html"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/does-medicaid-cover-psychotherapy.html"
+  to = "/blog/does-medicaid-cover-psychotherapy.html"
+  status = 301
+
+[[redirects]]
+  from = "/how-tms-works.html"
+  to = "/blog/how-tms-works.html"
+  status = 301
+
+[[redirects]]
+  from = "/tms-cost-insurance.html"
+  to = "/blog/tms-cost-insurance.html"
+  status = 301
+
+[[redirects]]
+  from = "/tms-therapy-side-effects.html"
+  to = "/blog/tms-therapy-side-effects.html"
+  status = 301
+
+[[redirects]]
+  from = "/is-tms-therapy-covered-by-medicare.html"
+  to = "/blog/is-tms-therapy-covered-by-medicare.html"
+  status = 301
+
+[[redirects]]
+  from = "/tms-clinic-seo.html"
+  to = "/blog/tms-clinic-seo.html"
+  status = 301
+
+[[redirects]]
+  from = "/how-to-get-more-patients.html"
+  to = "/blog/how-to-get-more-patients.html"
+  status = 301

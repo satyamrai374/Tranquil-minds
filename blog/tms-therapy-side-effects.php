@@ -9,12 +9,12 @@ $hero_cta1_link   = '#contact';
 $hero_cta2_text   = 'Read Guide';
 $hero_cta2_link   = '#content';
 ?>
-<?php include 'header.php'; ?>
-<?php include 'hero-service.php'; ?>
+<?php include __DIR__ . '/../header.php'; ?>
+<?php include __DIR__ . '/../hero-service.php'; ?>
 
     <section id="content" class="py-10 bg-white relative overflow-hidden">
         <div class="w-full relative z-10 text-center">
-            <img src="assets/blog/tms-side-effects.png" alt="Common Side Effects of TMS Therapy" class="w-full max-w-5xl mx-auto h-[400px] object-cover mb-10 rounded-3xl shadow-md">
+            <img src="../assets/blog/tms-side-effects.png" alt="Common Side Effects of TMS Therapy" class="w-full max-w-5xl mx-auto h-[400px] object-cover mb-10 rounded-3xl shadow-md">
             <div class="w-full px-4 md:px-12 lg:px-20 text-left">
                 <div class="prose prose-lg max-w-none text-gray-600">
                     
@@ -32,7 +32,7 @@ $hero_cta2_link   = '#content';
                     <div class="not-prose my-12 p-8 bg-primary/5 border border-primary/10 rounded-3xl text-center shadow-sm">
                         <h3 class="text-2xl text-primary font-bold mb-3" style="font-family: 'Bauhaus Soft', cursive;">Have Questions About Your Safety?</h3>
                         <p class="text-gray-600 mb-6 text-lg">Our clinical staff is dedicated to radical transparency and patient education. Let's discuss your specific concerns in a private, no-pressure environment.</p>
-                        <a href="contact.php" class="inline-block px-8 py-3.5 bg-accent text-white rounded-full font-bold hover:bg-accent-light hover:-translate-y-1 hover:shadow-lg transition-all duration-300">Schedule Your Free Call</a>
+                        <a href="../contact.php" class="inline-block px-8 py-3.5 bg-accent text-white rounded-full font-bold hover:bg-accent-light hover:-translate-y-1 hover:shadow-lg transition-all duration-300">Schedule Your Free Call</a>
                     </div>
 
                     <h2 class="text-3xl text-primary mt-12 mb-5" style="font-family: 'Bauhaus Soft', cursive;">Breaking Down the 5 Most Common Side Effects</h2>
@@ -82,7 +82,7 @@ $hero_cta2_link   = '#content';
                         <div class="absolute top-0 right-0 w-[200px] h-[200px] bg-white/10 rounded-full blur-[60px] pointer-events-none"></div>
                         <h3 class="text-2xl text-white font-bold mb-3" style="font-family: 'Bauhaus Soft', cursive;">Explore Treatment Resistant Solutions</h3>
                         <p class="text-white/90 mb-6 text-lg max-w-2xl mx-auto">Tired of medication side effects? TMS offers a powerful, FDA-cleared alternative for major depressive disorder.</p>
-                        <a href="neurostar-tms.php" class="inline-block px-8 py-3.5 bg-white text-primary rounded-full font-bold hover:bg-gray-100 hover:-translate-y-1 transition-all duration-300">Learn More About NeuroStar</a>
+                        <a href="../neurostar-tms.php" class="inline-block px-8 py-3.5 bg-white text-primary rounded-full font-bold hover:bg-gray-100 hover:-translate-y-1 transition-all duration-300">Learn More About NeuroStar</a>
                     </div>
 
                     <h2 class="text-3xl text-primary mt-12 mb-5" style="font-family: 'Bauhaus Soft', cursive;">Rare but Serious Risks: The Risk of Seizures</h2>
@@ -199,4 +199,4 @@ $hero_cta2_link   = '#content';
         </div>
     </section>
 
-<?php include 'footer.php'; ?>
+<?php include __DIR__ . '/../footer.php'; ?>

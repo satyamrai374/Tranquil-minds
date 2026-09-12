@@ -1,0 +1,52 @@
+# ==============================================================================
+# Tranquil Minds Mental Health - Blog Directory Configuration
+# ==============================================================================
+
+# 1. Directory Index
+DirectoryIndex index.php index.html
+
+# 2. Prevent Directory Browsing
+Options -Indexes
+
+# 3. Enable Rewrite Engine & Clean URLs
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /blog/
+
+    # Security: block hidden files (.git, .env, etc.)
+    RewriteRule (^\.|/\.) - [F]
+
+    # Don't rewrite real files or directories
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Clean URLs: map /blog/slug to /blog/slug.php if the .php file exists
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^/]+)/?$ $1.php [L]
+
+    # Clean URLs: map /blog/slug to /blog/slug.html if the .html file exists
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^([^/]+)/?$ $1.html [L]
+</IfModule>
+
+# 4. Security Headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# 5. Browser Caching for Images & Web Assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+</IfModule>

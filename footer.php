@@ -1,5 +1,7 @@
 
-    <?php if (empty($hide_contact)): ?>
+<?php
+$base_path = $base_path ?? (file_exists('footer.php') ? '' : '../');
+if (empty($hide_contact)): ?>
     <!-- Contact (Your Path Forward) -->
     <section id="contact" class="py-10 relative bg-[#F9FAF8] overflow-hidden">
         <!-- Subtle Ambient Background -->
@@ -153,10 +155,10 @@
 
                         <!-- Links -->
                         <div class="flex justify-center gap-4 text-xs text-gray-400 mt-4">
-                            <a href="privacy-policy.php"
+                            <a href="<?php echo $base_path; ?>privacy-policy.php"
                                 class="hover:text-accent transition-colors underline decoration-gray-300 hover:decoration-accent">Privacy
                                 Policy</a>
-                            <a href="terms-of-service.php"
+                            <a href="<?php echo $base_path; ?>terms-of-service.php"
                                 class="hover:text-accent transition-colors underline decoration-gray-300 hover:decoration-accent">Terms
                                 of Service</a>
                         </div>
@@ -226,7 +228,7 @@
                         class="md:col-span-12 lg:col-span-5 flex flex-col justify-between bg-white/[0.03] border border-white/5 p-8 rounded-3xl backdrop-blur-sm group hover:border-white/10 transition-colors">
                         <div class="mb-10">
                             <div class="flex items-center gap-4 mb-6">
-                                <img src="assets/logo/Tranquil-logo.png"
+                                <img src="<?php echo $base_path; ?>assets/logo/Tranquil-logo.png"
                                     alt="Tranquil Minds Mental Health Logo" class="h-16 opacity-90" style="filter: brightness(0) invert(1);">
                                 <span class="font-bold text-white text-2xl tracking-wide" style="font-family: 'Bauhaus Soft', sans-serif;">Tranquil Minds</span>
                             </div>
@@ -259,28 +261,28 @@
                             <div class="space-y-3 ">
                                 <h4 class="text-[10px] font-bold text-accent uppercase tracking-widest mb-3 opacity-80">
                                     Explore</h4>
-                                <a href="#"
+                                <a href="<?php echo $base_path; ?>about.php"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">About
                                     Us</a>
-                                <a href="#"
+                                <a href="<?php echo $base_path; ?>about.php#team"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Our
                                     Team</a>
-                                <a href="careers.php"
+                                <a href="<?php echo $base_path; ?>careers.php"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Careers</a>
-                                <a href="blog.php"
+                                <a href="<?php echo $base_path; ?>blog/index.php"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Blog</a>
                             </div>
                             <div class="space-y-3">
                                 <h4 class="text-[10px] font-bold text-accent uppercase tracking-widest mb-3 opacity-80">
                                     Clinical</h4>
-                                 <a href="neurostar-tms.php"
+                                 <a href="<?php echo $base_path; ?>neurostar-tms.php"
                                      class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Neurostar®
                                      TMS</a>
-                                <a href="medication-management.php"
+                                <a href="<?php echo $base_path; ?>medication-management.php"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Medication Management</a>
-                                <a href="conditions.php"
+                                <a href="<?php echo $base_path; ?>conditions.php"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Conditions</a>
-                                <a href="insurance.php"
+                                <a href="<?php echo $base_path; ?>insurance.php"
                                     class="block text-sm text-gray-400 hover:text-white hover:translate-x-1 transition-all">Insurance</a>
                             </div>
                         </div>
@@ -359,9 +361,9 @@
                     class="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/30 font-medium">
                     <div>&copy; 2026 Tranquil Minds Mental Health Inc.</div>
                     <div class="flex gap-6">
-                        <a href="privacy-policy.php" class="hover:text-white transition-colors">Privacy</a>
-                        <a href="terms-of-service.php" class="hover:text-white transition-colors">Terms</a>
-                        <a href="accessibility-statement.php" class="hover:text-white transition-colors">Accessibility</a>
+                        <a href="<?php echo $base_path; ?>privacy-policy.php" class="hover:text-white transition-colors">Privacy</a>
+                        <a href="<?php echo $base_path; ?>terms-of-service.php" class="hover:text-white transition-colors">Terms</a>
+                        <a href="<?php echo $base_path; ?>accessibility-statement.php" class="hover:text-white transition-colors">Accessibility</a>
                     </div>
                 </div>
 

@@ -9,12 +9,12 @@ $hero_cta1_link   = '#contact';
 $hero_cta2_text   = 'Read Guide';
 $hero_cta2_link   = '#content';
 ?>
-<?php include 'header.php'; ?>
-<?php include 'hero-service.php'; ?>
+<?php include __DIR__ . '/../header.php'; ?>
+<?php include __DIR__ . '/../hero-service.php'; ?>
 
     <section id="content" class="py-10 bg-white relative overflow-hidden">
         <div class="w-full relative z-10 text-center">
-            <img src="assets/blog/tms-cost.png" alt="How Much Does TMS Cost With Insurance?" class="w-full max-w-5xl mx-auto h-auto mb-10 rounded-3xl shadow-md">
+            <img src="../assets/blog/tms-cost.png" alt="How Much Does TMS Cost With Insurance?" class="w-full max-w-5xl mx-auto h-auto mb-10 rounded-3xl shadow-md">
             <div class="w-full px-4 md:px-12 lg:px-20 text-left">
                 <div class="prose prose-lg max-w-none text-gray-600">
                         <p class="lead text-xl text-primary font-medium mb-6">If you've been struggling with depression and medications haven't provided the relief you hoped for, your provider may have recommended Transcranial Magnetic Stimulation (TMS) as the next step. One of the first questions many people ask is, "How much does TMS cost with insurance?"</p>
@@ -268,4 +268,4 @@ $hero_cta2_link   = '#content';
     }
     </script>
 
-<?php include 'footer.php'; ?>
+<?php include __DIR__ . '/../footer.php'; ?>

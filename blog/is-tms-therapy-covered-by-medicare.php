@@ -9,12 +9,12 @@ $hero_cta1_link   = '#contact';
 $hero_cta2_text   = 'Read Guide';
 $hero_cta2_link   = '#content';
 ?>
-<?php include 'header.php'; ?>
-<?php include 'hero-service.php'; ?>
+<?php include __DIR__ . '/../header.php'; ?>
+<?php include __DIR__ . '/../hero-service.php'; ?>
 
     <section id="content" class="py-10 bg-white relative overflow-hidden">
         <div class="w-full relative z-10 text-center">
-            <img src="assets/blog/medicare-tms.png" alt="Is TMS Therapy Covered by Medicare?" class="w-full max-w-5xl mx-auto h-[400px] object-cover mb-10 rounded-3xl shadow-md">
+            <img src="../assets/blog/medicare-tms.png" alt="Is TMS Therapy Covered by Medicare?" class="w-full max-w-5xl mx-auto h-[400px] object-cover mb-10 rounded-3xl shadow-md">
             <div class="w-full px-4 md:px-12 lg:px-20 text-left">
                 <div class="prose prose-lg max-w-none text-gray-600">
                     
@@ -44,7 +44,7 @@ $hero_cta2_link   = '#content';
                     <div class="not-prose my-12 p-8 bg-primary/5 border border-primary/10 rounded-3xl text-center shadow-sm">
                         <h3 class="text-2xl text-primary font-bold mb-3" style="font-family: 'Bauhaus Soft', cursive;">Ready to Find Lasting Relief?</h3>
                         <p class="text-gray-600 mb-6 text-lg">Our expert clinical team is here to help you navigate your Medicare coverage and determine if TMS is the right path for your mental health.</p>
-                        <a href="contact.php" class="inline-block px-8 py-3.5 bg-accent text-white rounded-full font-bold hover:bg-accent-light hover:-translate-y-1 hover:shadow-lg transition-all duration-300">Book Your Free Consultation</a>
+                        <a href="../contact.php" class="inline-block px-8 py-3.5 bg-accent text-white rounded-full font-bold hover:bg-accent-light hover:-translate-y-1 hover:shadow-lg transition-all duration-300">Book Your Free Consultation</a>
                     </div>
 
                     <!-- Section 2 -->
@@ -58,7 +58,7 @@ $hero_cta2_link   = '#content';
                                 <span class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-1">&#10003;</span>
                                 <div>
                                     <strong class="text-primary text-lg block mb-1">A Confirmed Diagnosis of Severe Major Depressive Disorder (MDD)</strong>
-                                    You must have a confirmed diagnosis by a qualified psychiatrist. Read more on our <a href="treatment-resistant-depression.php" class="text-accent underline hover:text-accent-light">Treatment-Resistant Depression page</a>.
+                                    You must have a confirmed diagnosis by a qualified psychiatrist. Read more on our <a href="../treatment-resistant-depression.php" class="text-accent underline hover:text-accent-light">Treatment-Resistant Depression page</a>.
                                 </div>
                             </li>
                             <li class="flex items-start gap-3">
@@ -72,7 +72,7 @@ $hero_cta2_link   = '#content';
                                 <span class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-1">&#10003;</span>
                                 <div>
                                     <strong class="text-primary text-lg block mb-1">Documented History of Evidence-Based Psychotherapy</strong>
-                                    Records must show that you engaged in therapy (such as CBT) but experienced no significant improvement. We offer such services in our <a href="psychotherapy.php" class="text-accent underline hover:text-accent-light">Psychotherapy clinic</a>.
+                                    Records must show that you engaged in therapy (such as CBT) but experienced no significant improvement. We offer such services in our <a href="../psychotherapy.php" class="text-accent underline hover:text-accent-light">Psychotherapy clinic</a>.
                                 </div>
                             </li>
                             <li class="flex items-start gap-3">
@@ -101,7 +101,7 @@ $hero_cta2_link   = '#content';
 
                     <h3 class="text-2xl text-primary mt-8 mb-4 font-semibold">Step 1: Comprehensive Psychiatric Evaluation</h3>
                     <p>The journey begins with a thorough clinical assessment by one of our specialized providers.</p>
-                    <p>During this consultation, we will confirm your MDD diagnosis, review your psychiatric history, and assess your current symptoms. You can easily schedule this initial visit via our <a href="contact.php" class="text-accent underline hover:text-accent-light">Contact page</a>.</p>
+                    <p>During this consultation, we will confirm your MDD diagnosis, review your psychiatric history, and assess your current symptoms. You can easily schedule this initial visit via our <a href="../contact.php" class="text-accent underline hover:text-accent-light">Contact page</a>.</p>
 
                     <h3 class="text-2xl text-primary mt-8 mb-4 font-semibold">Step 2: Gathering Medical Records</h3>
                     <p>Our team will work with you (and your previous providers) to collect documentation of your past medication trials.</p>
@@ -161,7 +161,7 @@ $hero_cta2_link   = '#content';
                                 <span class="w-6 h-6 rounded-full bg-accent/20 flex items-center justify-center text-accent flex-shrink-0 mt-1">&#10003;</span>
                                 <div>
                                     <strong class="text-primary text-lg block mb-1">State-of-the-Art Technology</strong>
-                                    Our clinic utilizes the industry-leading <a href="neurostar-tms.php" class="text-accent underline hover:text-accent-light">Neurostar® Advanced Therapy</a> system to ensure you receive the highest standard of care.
+                                    Our clinic utilizes the industry-leading <a href="../neurostar-tms.php" class="text-accent underline hover:text-accent-light">Neurostar® Advanced Therapy</a> system to ensure you receive the highest standard of care.
                                 </div>
                             </li>
                             <li class="flex items-start gap-3">
@@ -263,4 +263,4 @@ $hero_cta2_link   = '#content';
         </div>
     </section>
 
-<?php include 'footer.php'; ?>
+<?php include __DIR__ . '/../footer.php'; ?>

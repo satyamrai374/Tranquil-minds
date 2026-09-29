@@ -263,4 +263,85 @@ $hero_cta2_link   = '#content';
         </div>
     </section>
 
+    <!-- ===== STRUCTURED DATA SCHEMAS (JSON-LD) ===== -->
+    <!-- 1. Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["BlogPosting", "Article"],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://tranquilmindsmentalhealth.com/blog/is-tms-therapy-covered-by-medicare.php"
+      },
+      "headline": "Is TMS Therapy Covered by Medicare in Minnesota?",
+      "description": "Learn about Medicare coverage for Transcranial Magnetic Stimulation (TMS) therapy in Minnesota. Details on eligibility, costs, prior authorization, and qualifications.",
+      "image": "https://tranquilmindsmentalhealth.com/assets/blog/is-tms-therapy-covered-by-medicare.png",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-29",
+      "author": {
+        "@type": "Organization",
+        "name": "Tranquil Minds Mental Health",
+        "url": "https://tranquilmindsmentalhealth.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Tranquil Minds Mental Health",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://tranquilmindsmentalhealth.com/assets/logo/Tranquil-logo.png"
+        }
+      }
+    }
+    </script>
+
+    <!-- 2. FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will I need to stay overnight in a hospital?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, absolutely not. TMS therapy is an entirely outpatient procedure. Each session lasts roughly 20 to 40 minutes, and because no anesthesia or sedation is used, you can drive yourself to and from our clinic and immediately resume your normal daily activities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I miss a TMS session?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While consistency is key to achieving the best clinical outcomes from neuroplasticity, missing a single session due to illness or an emergency is usually okay. We will simply tack the missed session onto the end of your treatment plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I continue taking my antidepressants while getting TMS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, most patients continue to take their prescribed psychiatric medications while undergoing TMS therapy. In fact, TMS is often used as an adjunctive treatment to help boost the efficacy of your current regimen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Medicare require a referral from my primary care doctor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Original Medicare (Part B) generally does not require a formal referral to see a specialist like a psychiatrist for TMS evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if TMS doesn't work for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While TMS has a high success rate, it is not a cure-all. If you do not experience significant improvement after a full course of treatment, our clinical team will work with you to reassess your diagnosis and explore other options."
+          }
+        }
+      ]
+    }
+    </script>
+
 <?php include __DIR__ . '/../footer.php'; ?>

@@ -195,9 +195,15 @@
     <!-- ==================== BLOG & GUIDES ==================== -->
     <url>
         <loc>https://tranquilmindsmentalhealth.com/blog/</loc>
-        <lastmod>2026-09-12</lastmod>
+        <lastmod>2026-09-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/is-neurostar-tms-therapy-safe.html</loc>
+        <lastmod>2026-09-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.80</priority>
     </url>
     <url>
         <loc>https://tranquilmindsmentalhealth.com/blog/does-medicaid-cover-psychotherapy.html</loc>

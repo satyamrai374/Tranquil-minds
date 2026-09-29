@@ -199,4 +199,77 @@ $hero_cta2_link   = '#content';
         </div>
     </section>
 
+    <!-- ===== STRUCTURED DATA SCHEMAS (JSON-LD) ===== -->
+    <!-- 1. BlogPosting / Article Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["BlogPosting", "Article"],
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://tranquilmindsmentalhealth.com/blog/tms-therapy-side-effects.php"
+      },
+      "headline": "TMS Therapy Side Effects: Complete Safety Guide",
+      "description": "Comprehensive guide to common and rare side effects of TMS therapy, safety contraindications, and clinical protocols in Monticello, MN.",
+      "image": "https://tranquilmindsmentalhealth.com/assets/blog/tms-therapy-side-effects.png",
+      "datePublished": "2026-09-25",
+      "dateModified": "2026-09-29",
+      "author": {
+        "@type": "Organization",
+        "name": "Tranquil Minds Mental Health",
+        "url": "https://tranquilmindsmentalhealth.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Tranquil Minds Mental Health",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://tranquilmindsmentalhealth.com/assets/logo/Tranquil-logo.png"
+        }
+      }
+    }
+    </script>
+
+    <!-- 2. FAQPage Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is it safe to have TMS if I have metal in my body?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This depends on the location of the metal. If you have magnetic-sensitive metal implants in or near your head or neck, you are not a candidate for TMS due to safety risks. Dental fillings, braces, or knee replacements are perfectly safe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I stop taking my antidepressants once I start TMS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You should never abruptly stop taking prescribed antidepressants without supervision. Most patients continue their current medication regimen throughout their TMS course."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How will I feel immediately after a session?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients feel completely normal and alert immediately following a session. You will not feel groggy, sedated, or impaired in any way."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the effects of TMS permanent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While TMS offers long-lasting relief for many, it is not considered a permanent cure. Many patients enjoy remission for a year or longer, and maintenance booster sessions can restore mood if needed."
+          }
+        }
+      ]
+    }
+    </script>
+
 <?php include __DIR__ . '/../footer.php'; ?>

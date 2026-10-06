@@ -3,7 +3,7 @@ $page_title       = "Is NeuroStar® TMS Therapy Safe? What to Know";
 $page_description = "Learn about NeuroStar® TMS safety, side effects, risks, and FDA clearance at Tranquil Minds Mental Health in Monticello, MN.";
 $hero_title       = 'Is NeuroStar® TMS Therapy Safe? What to Know';
 $hero_subtitle    = 'An evidence-based guide to NeuroStar TMS safety, FDA clearances, non-systemic benefits, side effects, and patient care in Monticello, MN.';
-$hero_badge       = 'September 25, 2026 · 9 min read · TMS Safety & Clinical Care';
+$hero_badge       = 'September 25, 2026 · 9 min read · TMS Therapy';
 $hero_cta1_text   = 'Book a Free Consultation';
 $hero_cta1_link   = '../contact.php';
 $hero_cta2_text   = 'Read Safety Guide';
@@ -608,6 +608,34 @@ $hero_cta2_link   = '#content';
             "@type": "Answer",
             "text": "Most major commercial health insurance plans (including Blue Cross Blue Shield, HealthPartners, UCare, Medica, Optum, and Medicare) cover NeuroStar TMS therapy for treatment-resistant depression. Tranquil Minds verifies your exact benefits prior to treatment."
           }
+        }
+      ]
+    }
+    </script>
+
+    <!-- 3. BreadcrumbList Schema for Google Search Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://tranquilmindsmentalhealth.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog & Resources",
+          "item": "https://tranquilmindsmentalhealth.com/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Is NeuroStar® TMS Therapy Safe? What to Know",
+          "item": "https://tranquilmindsmentalhealth.com/blog/is-neurostar-tms-therapy-safe.php"
         }
       ]
     }

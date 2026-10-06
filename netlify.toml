@@ -8,6 +8,11 @@
   status = 301
 
 [[redirects]]
+  from = "/is-neurostar-tms-therapy-safe.html"
+  to = "/blog/is-neurostar-tms-therapy-safe.html"
+  status = 301
+
+[[redirects]]
   from = "/does-medicaid-cover-psychotherapy.html"
   to = "/blog/does-medicaid-cover-psychotherapy.html"
   status = 301

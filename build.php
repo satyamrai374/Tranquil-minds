@@ -36,6 +36,7 @@ $pages = [
     'contact.php' => 'contact.html',
     'blog.php' => 'blog.html',
     'blog/index.php' => 'blog/index.html',
+    'blog/is-ocd-a-disability.php' => 'blog/is-ocd-a-disability.html',
     'blog/is-neurostar-tms-therapy-safe.php' => 'blog/is-neurostar-tms-therapy-safe.html',
     'blog/does-medicaid-cover-psychotherapy.php' => 'blog/does-medicaid-cover-psychotherapy.html',
     'blog/how-to-get-more-patients.php' => 'blog/how-to-get-more-patients.html',

@@ -4,7 +4,7 @@ $hide_contact     = false;
 $page_title       = "How Does NeuroStar TMS Work? Benefits & Treatment Explained";
 $page_description = "Learn how NeuroStar TMS uses targeted magnetic pulses to treat depression without medication at Tranquil Minds Mental Health in Monticello, MN.";
 $hero_title       = 'How Does NeuroStar TMS Work?<br><span class="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/50">Benefits &amp; Treatment Explained.</span>';
-$hero_subtitle    = 'A clinical guide to how targeted magnetic pulses stimulate underactive brain pathways to relieve depression without medication, systemic side effects, or downtime.';
+$hero_subtitle    = 'A clinical guide to how NeuroStar® TMS uses targeted magnetic pulses to stimulate underactive brain pathways to relieve depression without medication, systemic side effects, or downtime.';
 $hero_badge       = 'October 16, 2026 · 9 min read · TMS Therapy';
 $hero_cta1_text   = 'Book a Free Consultation';
 $hero_cta1_link   = '#contact';

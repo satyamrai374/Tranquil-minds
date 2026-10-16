@@ -264,7 +264,7 @@ $hero_cta2_link   = '#content';
                     </div>
 
                     <p class="text-sm text-gray-500">
-                        Explore our guides on <a href="how-tms-works.php" class="text-accent underline">how TMS works</a> and <a href="is-neurostar-tms-therapy-safe.php" class="text-accent underline">NeuroStar TMS safety</a>.
+                        Explore our guides on <a href="how-does-neurostar-tms-work.php" class="text-accent underline">how NeuroStar TMS works</a> and <a href="is-neurostar-tms-therapy-safe.php" class="text-accent underline">NeuroStar TMS safety</a>.
                     </p>
 
                     <h3 class="text-2xl text-primary mt-8 mb-4 font-semibold">When to Seek Doctor Help for OCD</h3>

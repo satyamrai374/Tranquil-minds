@@ -36,6 +36,7 @@ $pages = [
     'contact.php' => 'contact.html',
     'blog.php' => 'blog.html',
     'blog/index.php' => 'blog/index.html',
+    'blog/how-does-neurostar-tms-work.php' => 'blog/how-does-neurostar-tms-work.html',
     'blog/is-ocd-a-disability.php' => 'blog/is-ocd-a-disability.html',
     'blog/is-neurostar-tms-therapy-safe.php' => 'blog/is-neurostar-tms-therapy-safe.html',
     'blog/does-medicaid-cover-psychotherapy.php' => 'blog/does-medicaid-cover-psychotherapy.html',
@@ -62,6 +63,10 @@ if (!is_dir('dist')) {
 
 // Build each page
 foreach ($pages as $srcFile => $outFile) {
+    unset($hide_contact);
+    unset($page_title, $page_description, $hero_title, $hero_subtitle, $hero_badge, $hero_cta1_text, $hero_cta1_link, $hero_cta2_text, $hero_cta2_link);
+    $hide_contact = false;
+
     if (!file_exists($srcFile)) {
         echo "Warning: $srcFile not found, skipping.\n";
         continue;

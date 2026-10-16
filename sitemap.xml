@@ -195,8 +195,14 @@
     <!-- ==================== BLOG & GUIDES ==================== -->
     <url>
         <loc>https://tranquilmindsmentalhealth.com/blog/</loc>
-        <lastmod>2026-09-25</lastmod>
+        <lastmod>2026-10-16</lastmod>
         <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/how-does-neurostar-tms-work.html</loc>
+        <lastmod>2026-10-16</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>

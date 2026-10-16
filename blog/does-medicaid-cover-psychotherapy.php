@@ -314,7 +314,7 @@ $hero_cta2_link   = '#content';
                     </p>
                     <ul class="list-disc pl-5 mb-6 space-y-2">
                         <li>
-                            <strong>Transcranial Magnetic Stimulation (TMS):</strong> An FDA-cleared, non-invasive therapy using targeted magnetic pulses to activate underactive mood networks. Read <a href="how-tms-works.php" class="text-accent underline hover:text-accent-light">how TMS works</a> and explore our <a href="../neurostar-tms.php" class="text-accent underline hover:text-accent-light">NeuroStar® TMS therapy</a>.
+                            <strong>Transcranial Magnetic Stimulation (TMS):</strong> An FDA-cleared, non-invasive therapy using targeted magnetic pulses to activate underactive mood networks. Read <a href="how-does-neurostar-tms-work.php" class="text-accent underline hover:text-accent-light">how NeuroStar TMS works</a> and explore our <a href="../neurostar-tms.php" class="text-accent underline hover:text-accent-light">NeuroStar® TMS therapy</a>.
                         </li>
                         <li>
                             <strong>Synchronized Medication Management:</strong> Aligning psychiatric prescriptions with ongoing therapy delivers significantly higher remission and wellness outcomes.

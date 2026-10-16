@@ -75,7 +75,7 @@ $hero_cta2_link   = '#content';
                         NeuroStar TMS utilizes focused, pulsed magnetic fields—similar in type and strength to those produced by an Magnetic Resonance Imaging (<a href="https://en.wikipedia.org/wiki/Magnetic_resonance_imaging" target="_blank" rel="noopener noreferrer" class="text-accent underline hover:text-accent-light">MRI machine</a>)—to stimulate specific nerve cells in the brain. Specifically, the magnetic treatment coil is precisely positioned over the left dorsolateral prefrontal cortex (DLPFC), an area known to be underactive in individuals suffering from depression.
                     </p>
                     <p>
-                        Learn more about the specific biological mechanisms on our dedicated <a href="how-tms-works.php" class="text-accent underline hover:text-accent-light">How TMS Works guide</a> and review our <a href="../what-is-tms-therapy.php" class="text-accent underline hover:text-accent-light">What Is TMS Therapy page</a>.
+                        Learn more about the specific biological mechanisms on our dedicated <a href="how-does-neurostar-tms-work.php" class="text-accent underline hover:text-accent-light">How Does NeuroStar TMS Work? guide</a> and review our <a href="../what-is-tms-therapy.php" class="text-accent underline hover:text-accent-light">What Is TMS Therapy page</a>.
                     </p>
 
                     <div class="grid grid-cols-1 md:grid-cols-3 gap-6 my-8 not-prose">

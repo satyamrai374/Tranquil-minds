@@ -368,20 +368,6 @@ $hero_cta2_link   = '#content';
                         Most major health plans in Minnesota—including Blue Cross Blue Shield, HealthPartners, UCare, Medica, Optum, and Medicare—cover NeuroStar TMS. Check our insurance guides: <a href="tms-cost-insurance.php" class="text-accent underline hover:text-accent-light">How Much Does TMS Cost With Insurance?</a> and <a href="is-tms-therapy-covered-by-medicare.php" class="text-accent underline hover:text-accent-light">Is TMS Covered by Medicare?</a>.
                     </p>
 
-                    <!-- Author Box / E-E-A-T Credibility Card -->
-                    <div class="not-prose my-10 p-6 bg-[#FAFAFF] border border-primary/10 rounded-2xl flex flex-col sm:flex-row gap-5 items-center sm:items-start shadow-sm">
-                        <div class="w-20 h-20 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-2xl flex-shrink-0 border-2 border-primary/20">
-                            RD
-                        </div>
-                        <div class="text-center sm:text-left">
-                            <div class="text-xs font-bold uppercase tracking-widest text-accent mb-1">Medically Reviewed &amp; Authored By</div>
-                            <h4 class="text-xl font-bold text-primary mb-1" style="font-family: 'Bauhaus Soft', cursive;">Roxanne DoBrava, APRN-CNP, PMHNP-BC</h4>
-                            <p class="text-xs text-gray-500 mb-2">Board-Certified Psychiatric Mental Health Nurse Practitioner | Founder, Tranquil Minds Mental Health</p>
-                            <p class="text-sm text-gray-600 leading-relaxed">
-                                Roxanne specializes in advanced neuromodulation, adolescent care, and integrative treatment for depression and anxiety. She is committed to delivering accessible, doctor-led mental health solutions throughout central Minnesota.
-                            </p>
-                        </div>
-                    </div>
 
                     <!-- Conclusion Section (Above FAQs) -->
                     <h2 id="conclusion" class="text-3xl text-primary mt-12 mb-5" style="font-family: 'Bauhaus Soft', cursive;">Conclusion: A Proven, Medication-Free Path to Mental Wellness</h2>

@@ -797,6 +797,82 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                     </div>
                 </li>
 
+                <!-- Locations (Right Aligned) -->
+                <li class="group relative">
+                    <button
+                        class="px-4 py-2 rounded-full hover:bg-primary/5 hover:text-accent transition-all duration-300 flex items-center gap-1 group-hover:bg-primary/5 group-hover:text-accent relative z-50">
+                        Locations <svg class="w-3 h-3 transition-transform group-hover:rotate-180 opacity-50"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <!-- Dropdown Panel -->
+                    <div
+                        class="absolute right-0 top-full mt-6 w-80 bg-white/95 backdrop-blur-[40px] rounded-3xl shadow-[0_50px_100px_-20px_rgba(42,54,30,0.15)] border border-white/40 p-3 opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 ease-out origin-top-right z-40 overflow-hidden">
+                        <div class="absolute -top-10 left-0 w-full h-10 bg-transparent"></div>
+
+                        <div class="p-2 border-b border-primary/5 mb-1">
+                            <a href="<?php echo $base_path; ?>locations.php" class="flex items-center justify-between font-bold text-sm text-primary hover:text-accent transition-colors">
+                                <span>All Service Areas</span>
+                                <span class="text-xs text-accent">View Hub &rarr;</span>
+                            </a>
+                        </div>
+
+                        <div class="grid grid-cols-1 divide-y divide-primary/5 max-h-[360px] overflow-y-auto">
+                            <a href="<?php echo $base_path; ?>tms-therapy-near-me.php"
+                                class="flex items-center justify-between p-3 rounded-xl hover:bg-primary/5 transition-colors group/item">
+                                <div>
+                                    <span class="block text-sm font-bold text-primary group-hover/item:text-accent transition-colors">TMS Therapy Near Me</span>
+                                    <span class="text-[11px] text-gray-400">Clinic finder &amp; radius guide</span>
+                                </div>
+                            </a>
+                            <a href="<?php echo $base_path; ?>tms-therapy-buffalo-mn.php"
+                                class="flex items-center justify-between p-3 rounded-xl hover:bg-primary/5 transition-colors group/item">
+                                <div>
+                                    <span class="block text-sm font-bold text-primary group-hover/item:text-accent transition-colors">Buffalo, MN</span>
+                                    <span class="text-[11px] text-gray-400">10 mins via MN-25 N</span>
+                                </div>
+                            </a>
+                            <a href="<?php echo $base_path; ?>tms-therapy-elk-river-mn.php"
+                                class="flex items-center justify-between p-3 rounded-xl hover:bg-primary/5 transition-colors group/item">
+                                <div>
+                                    <span class="block text-sm font-bold text-primary group-hover/item:text-accent transition-colors">Elk River, MN</span>
+                                    <span class="text-[11px] text-gray-400">15 mins via US-10 W</span>
+                                </div>
+                            </a>
+                            <a href="<?php echo $base_path; ?>tms-therapy-big-lake-mn.php"
+                                class="flex items-center justify-between p-3 rounded-xl hover:bg-primary/5 transition-colors group/item">
+                                <div>
+                                    <span class="block text-sm font-bold text-primary group-hover/item:text-accent transition-colors">Big Lake, MN</span>
+                                    <span class="text-[11px] text-gray-400">5 mins across river bridge</span>
+                                </div>
+                            </a>
+                            <a href="<?php echo $base_path; ?>tms-therapy-st-michael-albertville-mn.php"
+                                class="flex items-center justify-between p-3 rounded-xl hover:bg-primary/5 transition-colors group/item">
+                                <div>
+                                    <span class="block text-sm font-bold text-primary group-hover/item:text-accent transition-colors">STMA (St. Michael &amp; Albertville)</span>
+                                    <span class="text-[11px] text-gray-400">10 mins west on I-94</span>
+                                </div>
+                            </a>
+                            <a href="<?php echo $base_path; ?>tms-therapy-maple-grove-mn.php"
+                                class="flex items-center justify-between p-3 rounded-xl hover:bg-primary/5 transition-colors group/item">
+                                <div>
+                                    <span class="block text-sm font-bold text-primary group-hover/item:text-accent transition-colors">Maple Grove, MN</span>
+                                    <span class="text-[11px] text-gray-400">20 mins west on I-94</span>
+                                </div>
+                            </a>
+                            <a href="<?php echo $base_path; ?>tms-therapy-st-cloud-mn.php"
+                                class="flex items-center justify-between p-3 rounded-xl hover:bg-primary/5 transition-colors group/item">
+                                <div>
+                                    <span class="block text-sm font-bold text-primary group-hover/item:text-accent transition-colors">St. Cloud, MN</span>
+                                    <span class="text-[11px] text-gray-400">24 mins southeast on I-94</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
                 <!-- Resources (Right Aligned) -->
                 <li class="group relative">
                     <button
@@ -945,6 +1021,16 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
                     ['What Is TMS Therapy?', 'what-is-tms-therapy.php', 'The science &amp; how it works'],
                     ['TMS for Adolescents', 'tms-adolescents.php', 'Ages 15+'],
                     ['TMS for Adults', 'tms-adults.php', 'Depression, anxiety &amp; OCD'],
+                ],
+                'Locations' => [
+                    ['All Service Areas & Locations', 'locations.php', 'Master community directory'],
+                    ['TMS Therapy Near Me', 'tms-therapy-near-me.php', 'Local clinic finder & radius guide'],
+                    ['Buffalo, MN', 'tms-therapy-buffalo-mn.php', '10 mins away via MN-25 N'],
+                    ['Elk River, MN', 'tms-therapy-elk-river-mn.php', '15 mins away via US-10 W'],
+                    ['Big Lake, MN', 'tms-therapy-big-lake-mn.php', '5 mins across river bridge'],
+                    ['St. Michael & Albertville', 'tms-therapy-st-michael-albertville-mn.php', '10 mins west on I-94'],
+                    ['Maple Grove, MN', 'tms-therapy-maple-grove-mn.php', '20 mins west on I-94'],
+                    ['St. Cloud, MN', 'tms-therapy-st-cloud-mn.php', '24 mins southeast on I-94'],
                 ],
             ];
             $nav_mobile_resources = [

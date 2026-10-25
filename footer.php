@@ -356,6 +356,87 @@ if (empty($hide_contact)): ?>
 
                 </div>
 
+                <!-- Areas Served & Local Clinics Strip -->
+                <div class="mt-10 pt-8 border-t border-white/5">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+                        <span class="text-[11px] font-bold text-accent uppercase tracking-widest">Regional Service Areas &amp; Hyperlocal TMS Hubs:</span>
+                        <a href="<?php echo $base_path; ?>locations.php" class="text-xs text-accent-light hover:text-white transition-colors flex items-center gap-1 font-semibold">
+                            <span>Explore Full 68+ Community Directory</span> &rarr;
+                        </a>
+                    </div>
+                    <div class="flex flex-wrap gap-x-3 gap-y-2 text-xs text-white/40 leading-relaxed">
+                        <a href="<?php echo $base_path; ?>tms-therapy-monticello-mn.php" class="text-white/70 hover:text-accent-light transition-colors font-medium">Monticello (HQ)</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-near-me.php" class="hover:text-accent-light transition-colors">TMS Near Me</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-buffalo-mn.php" class="hover:text-accent-light transition-colors">Buffalo</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-st-michael-albertville-mn.php" class="hover:text-accent-light transition-colors">St. Michael &amp; Albertville</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-albertville-mn.php" class="hover:text-accent-light transition-colors">Albertville</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-delano-mn.php" class="hover:text-accent-light transition-colors">Delano</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-annandale-mn.php" class="hover:text-accent-light transition-colors">Annandale</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-maple-lake-mn.php" class="hover:text-accent-light transition-colors">Maple Lake</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-clearwater-mn.php" class="hover:text-accent-light transition-colors">Clearwater</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-elk-river-mn.php" class="hover:text-accent-light transition-colors">Elk River</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-big-lake-mn.php" class="hover:text-accent-light transition-colors">Big Lake</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-becker-mn.php" class="hover:text-accent-light transition-colors">Becker</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-zimmerman-mn.php" class="hover:text-accent-light transition-colors">Zimmerman</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-princeton-mn.php" class="hover:text-accent-light transition-colors">Princeton</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-st-cloud-mn.php" class="hover:text-accent-light transition-colors">St. Cloud</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-sartell-mn.php" class="hover:text-accent-light transition-colors">Sartell</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-sauk-rapids-mn.php" class="hover:text-accent-light transition-colors">Sauk Rapids</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-waite-park-mn.php" class="hover:text-accent-light transition-colors">Waite Park</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-maple-grove-mn.php" class="hover:text-accent-light transition-colors">Maple Grove</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-plymouth-mn.php" class="hover:text-accent-light transition-colors">Plymouth</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-rogers-mn.php" class="hover:text-accent-light transition-colors">Rogers</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-otsego-mn.php" class="hover:text-accent-light transition-colors">Otsego</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-dayton-mn.php" class="hover:text-accent-light transition-colors">Dayton</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-ramsey-mn.php" class="hover:text-accent-light transition-colors">Ramsey</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-anoka-mn.php" class="hover:text-accent-light transition-colors">Anoka</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-champlin-mn.php" class="hover:text-accent-light transition-colors">Champlin</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-wayzata-mn.php" class="hover:text-accent-light transition-colors">Wayzata</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>tms-therapy-minnetonka-mn.php" class="hover:text-accent-light transition-colors">Minnetonka</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>best-tms-clinic-minnesota.php" class="hover:text-accent-light transition-colors">Best TMS Clinic MN</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>insurance-covered-tms-therapy.php" class="hover:text-accent-light transition-colors">Insurance Covered TMS</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>neurostar-tms-provider-near-me.php" class="hover:text-accent-light transition-colors">NeuroStar Provider Near Me</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>depression-tms-therapy-maple-grove-mn.php" class="hover:text-accent-light transition-colors">Depression TMS</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>anxiety-treatment-elk-river-mn.php" class="hover:text-accent-light transition-colors">Anxiety Treatment</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>ocd-treatment-st-cloud-mn.php" class="hover:text-accent-light transition-colors">OCD Care</a>
+                        <span>&bull;</span>
+                        <a href="<?php echo $base_path; ?>adolescent-mental-health-tms-maple-grove-mn.php" class="hover:text-accent-light transition-colors">Adolescent TMS (15+)</a>
+                    </div>
+                </div>
+
                 <!-- Bottom Bar -->
                 <div
                     class="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/30 font-medium">

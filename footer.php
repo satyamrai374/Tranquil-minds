@@ -441,6 +441,7 @@ if (empty($hide_contact)): ?>
                 <div
                     class="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-white/30 font-medium">
                     <div>&copy; 2026 Tranquil Minds Mental Health Inc.</div>
+                    <a href="https://tmslist.com/clinic/tranquil-minds-mental-health-monticello-mn/" title="Tranquil Minds Mental Health on TMS List" style="display:inline-block;line-height:0"><img src="https://tmslist.com/badge/tranquil-minds-mental-health-monticello-mn.svg?layout=pill" width="180" height="40" alt="Tranquil Minds Mental Health is listed on TMS List" loading="lazy" style="border:0;max-width:100%;height:auto"></a>
                     <div class="flex gap-6">
                         <a href="<?php echo $base_path; ?>privacy-policy.php" class="hover:text-white transition-colors">Privacy</a>
                         <a href="<?php echo $base_path; ?>terms-of-service.php" class="hover:text-white transition-colors">Terms</a>

@@ -18,6 +18,25 @@ $hero_cta1_text   = 'Book a Free Consultation';
 $hero_cta1_link   = '#contact';
 $hero_cta2_text   = 'How It Works';
 $hero_cta2_link   = '#how';
+
+$head_start = <<<HTML
+    <!-- Google Tag Manager -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MNKC7KW6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    </script>
+
+    <!-- Clarity Code -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "zbju7gx4fs");
+    </script>
+HTML;
 ?>
 <?php include 'header.php'; ?>
 <?php include 'hero-service.php'; ?>

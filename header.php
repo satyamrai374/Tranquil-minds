@@ -8,6 +8,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
 <html lang="en">
 
 <head>
+    <?php if (isset($head_start)) { echo $head_start; } ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $page_title; ?></title>

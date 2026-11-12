@@ -68,7 +68,8 @@ if (empty($hide_contact)): ?>
                 <!-- Right Column: Form -->
                 <div
                     class="fade-in-section bg-white p-8 md:p-10 rounded-2xl shadow-xl shadow-accent/5 border border-primary/5">
-                    <form id="footer-form" class="space-y-6" accept-charset="UTF-8" action="https://app.formester.com/forms/BEeWY9HCw/submissions" method="POST">
+                    <?php $form_action = $form_action ?? 'https://app.formester.com/forms/BEeWY9HCw/submissions'; ?>
+                    <form id="footer-form" class="space-y-6" accept-charset="UTF-8" action="<?php echo $form_action; ?>" method="POST">
                         <!-- Name Row -->
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div class="space-y-2">

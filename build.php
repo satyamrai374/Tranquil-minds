@@ -135,7 +135,7 @@ if (!is_dir('dist')) {
 
 // Build each page
 foreach ($pages as $srcFile => $outFile) {
-    unset($hide_contact, $base_path, $page_schema, $extra_head, $head_start);
+    unset($hide_contact, $base_path, $page_schema, $extra_head, $head_start, $form_action);
     unset($page_title, $page_description, $hero_title, $hero_subtitle, $hero_badge, $hero_cta1_text, $hero_cta1_link, $hero_cta2_text, $hero_cta2_link);
     $hide_contact = false;
     $base_path = (strpos($outFile, '/') !== false) ? '../' : '';

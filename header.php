@@ -469,6 +469,7 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
 </head>
 
 <body>
+    <?php if (empty($hide_nav)): ?>
     <!-- Navbar (Split Pill Design with Mega Menu) -->
     <nav id="main-nav"
         class="fixed w-full top-0 px-6 md:px-10 lg:px-16 py-6 flex justify-between items-start z-50 transition-all duration-500 bg-transparent group/nav">
@@ -1166,3 +1167,4 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
             </div>
         </div>
     </nav>
+    <?php endif; ?>

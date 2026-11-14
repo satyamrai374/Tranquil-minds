@@ -20,6 +20,8 @@ $hero_cta2_text   = 'How It Works';
 $hero_cta2_link   = '#how';
 
 $form_action = 'https://app.formester.com/forms/feAVzuh2X/submissions';
+$hide_nav    = true; // Ad landing page — no site navigation
+$extra_head  = '    <meta name="robots" content="noindex, nofollow">';
 
 $head_start = <<<HTML
     <!-- Google Tag Manager -->

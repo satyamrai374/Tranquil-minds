@@ -11,7 +11,7 @@ $hero_cta1_link   = '#contact';
 $hero_cta2_text   = 'Read Guide';
 $hero_cta2_link   = '#content';
 
-$canonical_url = 'https://tranquilmindsmentalhealth.com/blog/is-psychotherapy-covered-by-insurance.html';
+$canonical_url = 'https://tranquilmindsmentalhealth.com/blog/is-psychotherapy-covered-by-insurance';
 $og_image      = 'https://tranquilmindsmentalhealth.com/assets/blog/is-psychotherapy-covered-by-insurance.png';
 $extra_head = <<<HTML
     <link rel="canonical" href="{$canonical_url}">
@@ -523,7 +523,7 @@ HTML;
       "@type": "BlogPosting",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://tranquilmindsmentalhealth.com/blog/is-psychotherapy-covered-by-insurance.php"
+        "@id": "https://tranquilmindsmentalhealth.com/blog/is-psychotherapy-covered-by-insurance"
       },
       "headline": "Is Psychotherapy Covered by Insurance? What Patients Should Know",
       "description": "Most health plans cover psychotherapy. Learn how private insurance, Medicare and Medicaid pay for therapy, typical costs, session limits, and how to verify your benefits in Minnesota.",

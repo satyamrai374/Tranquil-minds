@@ -195,8 +195,14 @@
     <!-- ==================== BLOG & GUIDES ==================== -->
     <url>
         <loc>https://tranquilmindsmentalhealth.com/blog/</loc>
-        <lastmod>2026-10-16</lastmod>
+        <lastmod>2026-11-09</lastmod>
         <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/is-psychotherapy-covered-by-insurance.html</loc>
+        <lastmod>2026-11-09</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>

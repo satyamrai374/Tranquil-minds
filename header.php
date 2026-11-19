@@ -8,6 +8,17 @@ $page_description = $page_description ?? "Tranquil Minds Mental Health: A sanctu
 <html lang="en">
 
 <head>
+    <!-- Consent defaults (must load before Google Tag Manager) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      (function () {
+        var c = null;
+        try { c = localStorage.getItem('tm_cookie_consent'); } catch (e) {}
+        var s = c === 'granted' ? 'granted' : 'denied';
+        gtag('consent', 'default', { ad_storage: s, ad_user_data: s, ad_personalization: s, analytics_storage: s, wait_for_update: 500 });
+      })();
+    </script>
     <?php if (isset($head_start)) { echo $head_start; } ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

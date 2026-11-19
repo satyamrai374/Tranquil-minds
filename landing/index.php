@@ -745,6 +745,7 @@ $page_description = "Schedule a free consultation for Neurostar® TMS therapy at
         });
     </script>
 
+    <script src="../assets/js/cookie-consent.js" defer></script>
 </body>
 
 </html>

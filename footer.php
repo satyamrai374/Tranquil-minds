@@ -447,12 +447,15 @@ if (empty($hide_contact)): ?>
                         <a href="<?php echo $base_path; ?>privacy-policy.php" class="hover:text-white transition-colors">Privacy</a>
                         <a href="<?php echo $base_path; ?>terms-of-service.php" class="hover:text-white transition-colors">Terms</a>
                         <a href="<?php echo $base_path; ?>accessibility-statement.php" class="hover:text-white transition-colors">Accessibility</a>
+                        <a href="#" onclick="return tmOpenCookieSettings()" class="hover:text-white transition-colors">Cookies</a>
                     </div>
                 </div>
 
             </div>
         </div>
     </footer>
+
+    <script src="<?php echo $base_path; ?>assets/js/cookie-consent.js" defer></script>
 
 </body>
 

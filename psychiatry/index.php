@@ -6,6 +6,18 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
 <html lang="en" class="scroll-smooth">
 
 <head>
+    <!-- Consent defaults (must load before Google Tag Manager) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      (function () {
+        var c = null;
+        try { c = localStorage.getItem('tm_cookie_consent'); } catch (e) {}
+        var s = c === 'granted' ? 'granted' : 'denied';
+        gtag('consent', 'default', { ad_storage: s, ad_user_data: s, ad_personalization: s, analytics_storage: s, wait_for_update: 500 });
+      })();
+    </script>
+
     <!-- Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-MNKC7KW6"></script>
     <script>
@@ -1601,5 +1613,6 @@ $page_description = "Looking for a psychiatrist in Monticello, MN? Tranquil Mind
         });
     </script>
 
+    <script src="../assets/js/cookie-consent.js" defer></script>
 </body>
 </html>

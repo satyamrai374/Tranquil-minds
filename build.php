@@ -36,6 +36,7 @@ $pages = [
     'contact.php' => 'contact.html',
     'blog.php' => 'blog.html',
     'blog/index.php' => 'blog/index.html',
+    'blog/can-bipolar-disorder-be-managed-without-medication.php' => 'blog/can-bipolar-disorder-be-managed-without-medication.html',
     'blog/is-psychotherapy-covered-by-insurance.php' => 'blog/is-psychotherapy-covered-by-insurance.html',
     'blog/how-does-neurostar-tms-work.php' => 'blog/how-does-neurostar-tms-work.html',
     'blog/is-ocd-a-disability.php' => 'blog/is-ocd-a-disability.html',

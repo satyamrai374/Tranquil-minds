@@ -195,8 +195,14 @@
     <!-- ==================== BLOG & GUIDES ==================== -->
     <url>
         <loc>https://tranquilmindsmentalhealth.com/blog/</loc>
-        <lastmod>2026-11-09</lastmod>
+        <lastmod>2026-11-17</lastmod>
         <changefreq>weekly</changefreq>
+        <priority>0.85</priority>
+    </url>
+    <url>
+        <loc>https://tranquilmindsmentalhealth.com/blog/can-bipolar-disorder-be-managed-without-medication</loc>
+        <lastmod>2026-11-17</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.85</priority>
     </url>
     <url>
